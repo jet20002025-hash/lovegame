@@ -4,7 +4,7 @@
       "id": "puzzle-master",
       "title": "Puzzle Master",
       "slug": "puzzle-master",
-      "category": "puzzle",
+      "category": "thinking",
       "iframeUrl": "https://www.coolmathgames.com/0-puzzle-master",
       "description": "Challenge your mind with Puzzle Master, an engaging brain-teasing game that combines logic, strategy, and creativity. Solve increasingly complex puzzles and unlock new levels as you progress through this addictive puzzle adventure.",
       "howToPlay": "Use your mouse or touch to interact with puzzle pieces. Drag and drop elements to solve the puzzle. Each level has a specific objective - complete it to advance. Look for patterns and think strategically to find the solution.",
@@ -78,7 +78,7 @@
       "id": "word-challenge",
       "title": "Word Challenge",
       "slug": "word-challenge",
-      "category": "word",
+      "category": "thinking",
       "iframeUrl": "https://www.coolmathgames.com/0-word-challenge",
       "description": "Test your vocabulary and spelling skills in this exciting word game. Create words from letter tiles, solve crossword puzzles, and challenge yourself with increasingly difficult word challenges.",
       "howToPlay": "Click and drag letter tiles to form words. Words must be at least 3 letters long and can be formed horizontally or vertically. Use bonus tiles to multiply your score and complete daily challenges.",
@@ -147,39 +147,95 @@
   ],
   "categories": [
     {
-      "id": "puzzle",
-      "name": "Puzzle Games",
-      "description": "Brain-teasing puzzles and logic games",
-      "icon": "🧩",
+      "id": "driving",
+      "name": "Driving",
+      "description": "Car racing and vehicle simulation games",
+      "icon": "🚗",
       "color": "primary"
     },
     {
-      "id": "action",
-      "name": "Action Games",
-      "description": "Fast-paced action and adventure games",
-      "icon": "⚡",
-      "color": "accent"
+      "id": "girls",
+      "name": "Girls",
+      "description": "Fashion, dress-up and lifestyle games",
+      "icon": "👗",
+      "color": "pink"
+    },
+    {
+      "id": "shooting",
+      "name": "Shooting",
+      "description": "Action-packed shooting and combat games",
+      "icon": "🔫",
+      "color": "red"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Athletic and competitive sports games",
+      "icon": "⚽",
+      "color": "green"
+    },
+    {
+      "id": "skill",
+      "name": "Skill",
+      "description": "Games that test your reflexes and precision",
+      "icon": "🎯",
+      "color": "orange"
+    },
+    {
+      "id": "fighting",
+      "name": "Fighting",
+      "description": "Combat and martial arts games",
+      "icon": "👊",
+      "color": "red"
+    },
+    {
+      "id": "thinking",
+      "name": "Thinking",
+      "description": "Puzzle and brain-teasing games",
+      "icon": "🧩",
+      "color": "blue"
+    },
+    {
+      "id": "management",
+      "name": "Management & Simulation",
+      "description": "Business and life simulation games",
+      "icon": "🏢",
+      "color": "purple"
     },
     {
       "id": "strategy",
-      "name": "Strategy Games",
-      "description": "Tactical thinking and planning games",
+      "name": "Strategy & RPG",
+      "description": "Tactical thinking and role-playing games",
       "icon": "♟️",
-      "color": "secondary"
+      "color": "indigo"
     },
     {
-      "id": "word",
-      "name": "Word Games",
-      "description": "Vocabulary and language-based games",
-      "icon": "📝",
-      "color": "success"
+      "id": "action",
+      "name": "Action & Adventure",
+      "description": "Fast-paced action and adventure games",
+      "icon": "⚡",
+      "color": "yellow"
+    },
+    {
+      "id": "fun",
+      "name": "Fun & Crazy",
+      "description": "Whacky and entertaining games",
+      "icon": "🤪",
+      "color": "pink"
     },
     {
       "id": "arcade",
-      "name": "Arcade Games",
-      "description": "Classic arcade-style games",
+      "name": "Arcade & Classic",
+      "description": "Classic arcade and retro games",
       "icon": "🎮",
-      "color": "warning"
+      "color": "gray"
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "description": "Learning and educational games for all ages",
+      "icon": "📚",
+      "color": "teal"
     }
   ]
 }
