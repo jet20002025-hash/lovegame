@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Play, Star, Clock, Users } from 'lucide-react'
-import { getGamesData } from '../lib/games'
+import { getGamesData } from '@/lib/games'
 
 export const metadata = {
   title: 'Love Game Click - Ultimate Gaming Hub',

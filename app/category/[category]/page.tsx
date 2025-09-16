@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getGamesByCategory, getGamesData } from '../../lib/games'
+import { getGamesByCategory, getGamesData } from '@/lib/games'
 import { Play, Star, Clock, Users, ArrowLeft } from 'lucide-react'
 import { notFound } from 'next/navigation'
 

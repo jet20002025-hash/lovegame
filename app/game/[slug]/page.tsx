@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation'
-import { getGameBySlug, getGamesData } from '../../lib/games'
+import { getGameBySlug, getGamesData } from '@/lib/games'
 import { Play, Star, Clock, Users, ArrowLeft, Maximize2 } from 'lucide-react'
 import Link from 'next/link'
 

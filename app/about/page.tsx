@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getGamesData } from '../../lib/games'
+import { getGamesData } from '@/lib/games'
 
 export const metadata = {
   title: 'About Us - Love Game Click',
