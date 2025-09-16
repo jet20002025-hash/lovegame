@@ -143,6 +143,41 @@
       "tags": ["adventure", "mystery", "scooby-doo", "action", "puzzle"],
       "publishedAt": "2025-01-16T00:00:00.000Z",
       "featured": true
+    },
+    {
+      "id": "brainrot-evolution",
+      "title": "Brainrot Evolution",
+      "slug": "brainrot-evolution",
+      "category": "educational",
+      "iframeUrl": "https://zh.y8.com/games/brainrot_evolution",
+      "description": "Challenge your brain with Brainrot Evolution! This educational game tests your cognitive abilities, memory, and problem-solving skills through engaging puzzles and brain-training exercises.",
+      "howToPlay": "Use your mouse to interact with the game elements. Follow the instructions to complete various brain-training challenges. The game will test your memory, logic, and cognitive abilities through different levels.",
+      "features": [
+        "Brain-training exercises",
+        "Memory improvement challenges",
+        "Cognitive skill development",
+        "Progressive difficulty levels",
+        "Educational content",
+        "Mind-stimulating puzzles"
+      ],
+      "faqs": [
+        {
+          "question": "What is Brainrot Evolution?",
+          "answer": "It's an educational brain-training game designed to improve your cognitive abilities, memory, and problem-solving skills."
+        },
+        {
+          "question": "Is this game suitable for all ages?",
+          "answer": "Yes, Brainrot Evolution is designed to be educational and suitable for players of all ages who want to improve their mental abilities."
+        },
+        {
+          "question": "How does it help with brain training?",
+          "answer": "The game includes various puzzles and challenges that exercise different parts of your brain, helping improve memory, logic, and cognitive function."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/383851/file/w180h135_webp-7f234eecaf01a46fc647705a4918be37.webp",
+      "tags": ["educational", "brain-training", "puzzle", "memory", "cognitive", "learning"],
+      "publishedAt": "2025-01-16T01:00:00.000Z",
+      "featured": true
     }
   ],
   "categories": [
