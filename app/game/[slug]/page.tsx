@@ -112,7 +112,7 @@ export default async function GamePage({ params }: GamePageProps) {
             {/* Game Display */}
             <div className="card mb-8">
               <GameDisplay
-                gameUrl={game.gameUrl || game.iframeUrl}
+                gameUrl={game.gameUrl}
                 title={game.title}
                 className="rounded-t-xl"
               />
