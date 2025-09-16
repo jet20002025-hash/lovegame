@@ -178,6 +178,41 @@
       "tags": ["educational", "brain-training", "puzzle", "memory", "cognitive", "learning"],
       "publishedAt": "2025-01-16T01:00:00.000Z",
       "featured": true
+    },
+    {
+      "id": "tung-tung-sahur-burning-desire",
+      "title": "Tung Tung Sahur Burning Desire",
+      "slug": "tung-tung-sahur-burning-desire",
+      "category": "action",
+      "gameUrl": "https://zh.y8.com/games/tung_tung_sahur_burning_desire",
+      "description": "Join Tung Tung Sahur in an exciting action adventure filled with burning desire and thrilling challenges. Navigate through dangerous environments and overcome obstacles in this fast-paced game.",
+      "howToPlay": "Use arrow keys or WASD to move your character. Follow the on-screen instructions to complete objectives and progress through levels. Avoid obstacles and enemies while collecting items.",
+      "features": [
+        "Exciting action gameplay",
+        "Engaging storyline",
+        "Multiple levels to complete",
+        "Challenging obstacles",
+        "Beautiful graphics",
+        "Addictive gameplay"
+      ],
+      "faqs": [
+        {
+          "question": "How do I control the character?",
+          "answer": "Use arrow keys or WASD keys to move your character around the game world."
+        },
+        {
+          "question": "Is this game free to play?",
+          "answer": "Yes! Tung Tung Sahur Burning Desire is completely free to play online."
+        },
+        {
+          "question": "Can I play on mobile devices?",
+          "answer": "Yes, the game is optimized for both desktop and mobile devices."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/189759/file/w180h135_webp-ff09a512471cc2b6d11e58dade115038.webp",
+      "tags": ["action", "adventure", "new"],
+      "publishedAt": "2024-09-17T06:21:00Z",
+      "featured": true
     }
   ],
   "categories": [

@@ -6,7 +6,8 @@ export interface Game {
   title: string
   slug: string
   category: string
-  iframeUrl: string
+  iframeUrl?: string
+  gameUrl?: string
   description: string
   howToPlay: string
   features: string[]
