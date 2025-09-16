@@ -4,6 +4,7 @@ import { Toaster } from 'react-hot-toast'
 import './globals.css'
 
 export const metadata = {
+  metadataBase: new URL('https://lovegame.click'),
   title: {
     default: 'Love Game Click - Ultimate Gaming Hub',
     template: '%s | Love Game Click'
