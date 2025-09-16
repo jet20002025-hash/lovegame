@@ -1,0 +1,150 @@
+{
+  "games": [
+    {
+      "id": "puzzle-master",
+      "title": "Puzzle Master",
+      "slug": "puzzle-master",
+      "category": "puzzle",
+      "iframeUrl": "https://www.coolmathgames.com/0-puzzle-master",
+      "description": "Challenge your mind with Puzzle Master, an engaging brain-teasing game that combines logic, strategy, and creativity. Solve increasingly complex puzzles and unlock new levels as you progress through this addictive puzzle adventure.",
+      "howToPlay": "Use your mouse or touch to interact with puzzle pieces. Drag and drop elements to solve the puzzle. Each level has a specific objective - complete it to advance. Look for patterns and think strategically to find the solution.",
+      "features": [
+        "100+ challenging puzzle levels",
+        "Multiple puzzle types and mechanics",
+        "Progressive difficulty system",
+        "Hint system for difficult puzzles",
+        "Achievement system",
+        "Mobile-friendly touch controls"
+      ],
+      "faqs": [
+        {
+          "question": "How do I start playing Puzzle Master?",
+          "answer": "Simply click the 'Play Now' button and the game will load in your browser. No downloads or installations required!"
+        },
+        {
+          "question": "Is Puzzle Master free to play?",
+          "answer": "Yes! Puzzle Master is completely free to play. You can enjoy all levels without any cost."
+        },
+        {
+          "question": "Can I play on mobile devices?",
+          "answer": "Absolutely! Puzzle Master is optimized for both desktop and mobile devices. Touch controls work seamlessly on smartphones and tablets."
+        },
+        {
+          "question": "What if I get stuck on a puzzle?",
+          "answer": "Don't worry! The game includes a hint system that can help you when you're stuck. You can also take a break and come back later with fresh eyes."
+        }
+      ],
+      "thumbnail": "/images/puzzle-master.jpg",
+      "tags": ["puzzle", "brain", "casual", "strategy"],
+      "publishedAt": "2024-01-15T10:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "space-adventure",
+      "title": "Space Adventure",
+      "slug": "space-adventure",
+      "category": "action",
+      "iframeUrl": "https://www.coolmathgames.com/0-space-adventure",
+      "description": "Embark on an epic space journey in this thrilling action game. Navigate through asteroid fields, battle alien enemies, and explore distant galaxies in this fast-paced space adventure.",
+      "howToPlay": "Use arrow keys or WASD to move your spaceship. Press spacebar to shoot lasers at enemies. Collect power-ups to enhance your ship's abilities. Avoid asteroids and enemy fire to survive as long as possible.",
+      "features": [
+        "Multiple spaceship upgrades",
+        "Dynamic enemy AI",
+        "Power-up collection system",
+        "High score leaderboard",
+        "Multiple difficulty levels",
+        "Stunning space graphics"
+      ],
+      "faqs": [
+        {
+          "question": "What controls do I use for Space Adventure?",
+          "answer": "Use arrow keys or WASD to move your spaceship, and press spacebar to shoot. You can also use mouse controls for aiming."
+        },
+        {
+          "question": "How do I get a high score?",
+          "answer": "Destroy enemies, collect power-ups, and survive as long as possible. Each enemy destroyed gives you points, and power-ups provide bonus multipliers."
+        },
+        {
+          "question": "Can I upgrade my spaceship?",
+          "answer": "Yes! Collect coins and power-ups to upgrade your ship's weapons, shields, and speed. Upgrades persist between games."
+        }
+      ],
+      "thumbnail": "/images/space-adventure.jpg",
+      "tags": ["action", "space", "shooter", "arcade"],
+      "publishedAt": "2024-01-10T15:30:00Z",
+      "featured": true
+    },
+    {
+      "id": "word-challenge",
+      "title": "Word Challenge",
+      "slug": "word-challenge",
+      "category": "word",
+      "iframeUrl": "https://www.coolmathgames.com/0-word-challenge",
+      "description": "Test your vocabulary and spelling skills in this exciting word game. Create words from letter tiles, solve crossword puzzles, and challenge yourself with increasingly difficult word challenges.",
+      "howToPlay": "Click and drag letter tiles to form words. Words must be at least 3 letters long and can be formed horizontally or vertically. Use bonus tiles to multiply your score and complete daily challenges.",
+      "features": [
+        "Daily word challenges",
+        "Multiple game modes",
+        "Dictionary integration",
+        "Score multiplier system",
+        "Achievement badges",
+        "Social sharing features"
+      ],
+      "faqs": [
+        {
+          "question": "How do I form words in Word Challenge?",
+          "answer": "Click and drag letter tiles to arrange them into valid words. Words can be formed horizontally or vertically on the game board."
+        },
+        {
+          "question": "What makes a valid word?",
+          "answer": "Words must be at least 3 letters long and found in the game's dictionary. Proper nouns and abbreviations are not accepted."
+        },
+        {
+          "question": "How do bonus tiles work?",
+          "answer": "Bonus tiles multiply your score when used in words. Double letter, triple letter, double word, and triple word tiles provide different multipliers."
+        }
+      ],
+      "thumbnail": "/images/word-challenge.jpg",
+      "tags": ["word", "puzzle", "education", "vocabulary"],
+      "publishedAt": "2024-01-05T09:15:00Z",
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": "puzzle",
+      "name": "Puzzle Games",
+      "description": "Brain-teasing puzzles and logic games",
+      "icon": "🧩",
+      "color": "primary"
+    },
+    {
+      "id": "action",
+      "name": "Action Games",
+      "description": "Fast-paced action and adventure games",
+      "icon": "⚡",
+      "color": "accent"
+    },
+    {
+      "id": "strategy",
+      "name": "Strategy Games",
+      "description": "Tactical thinking and planning games",
+      "icon": "♟️",
+      "color": "secondary"
+    },
+    {
+      "id": "word",
+      "name": "Word Games",
+      "description": "Vocabulary and language-based games",
+      "icon": "📝",
+      "color": "success"
+    },
+    {
+      "id": "arcade",
+      "name": "Arcade Games",
+      "description": "Classic arcade-style games",
+      "icon": "🎮",
+      "color": "warning"
+    }
+  ]
+}
