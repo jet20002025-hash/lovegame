@@ -67,6 +67,9 @@ export default function RootLayout({
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#007AFF" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7208260866318884" crossOrigin="anonymous"></script>
+        <meta name="google-adsense-account" content="ca-pub-7208260866318884" />
+        <meta name="google-site-verification" content="google.com, pub-7208260866318884, DIRECT, f08c47fec0942fa0" />
       </head>
       <body className="min-h-screen bg-gray-50">
         <Header />
