@@ -5,7 +5,7 @@
       "title": "Puzzle Master",
       "slug": "puzzle-master",
       "category": "thinking",
-      "iframeUrl": "https://www.coolmathgames.com/0-puzzle-master",
+      "gameUrl": "https://www.coolmathgames.com/0-puzzle-master",
       "description": "Challenge your mind with Puzzle Master, an engaging brain-teasing game that combines logic, strategy, and creativity. Solve increasingly complex puzzles and unlock new levels as you progress through this addictive puzzle adventure.",
       "howToPlay": "Use your mouse or touch to interact with puzzle pieces. Drag and drop elements to solve the puzzle. Each level has a specific objective - complete it to advance. Look for patterns and think strategically to find the solution.",
       "features": [
@@ -44,7 +44,7 @@
       "title": "Space Adventure",
       "slug": "space-adventure",
       "category": "action",
-      "iframeUrl": "https://www.coolmathgames.com/0-space-adventure",
+      "gameUrl": "https://www.coolmathgames.com/0-space-adventure",
       "description": "Embark on an epic space journey in this thrilling action game. Navigate through asteroid fields, battle alien enemies, and explore distant galaxies in this fast-paced space adventure.",
       "howToPlay": "Use arrow keys or WASD to move your spaceship. Press spacebar to shoot lasers at enemies. Collect power-ups to enhance your ship's abilities. Avoid asteroids and enemy fire to survive as long as possible.",
       "features": [
@@ -79,7 +79,7 @@
       "title": "Word Challenge",
       "slug": "word-challenge",
       "category": "thinking",
-      "iframeUrl": "https://www.coolmathgames.com/0-word-challenge",
+      "gameUrl": "https://www.coolmathgames.com/0-word-challenge",
       "description": "Test your vocabulary and spelling skills in this exciting word game. Create words from letter tiles, solve crossword puzzles, and challenge yourself with increasingly difficult word challenges.",
       "howToPlay": "Click and drag letter tiles to form words. Words must be at least 3 letters long and can be formed horizontally or vertically. Use bonus tiles to multiply your score and complete daily challenges.",
       "features": [
@@ -114,7 +114,7 @@
       "title": "Scoobydoo Adventures Episode 4",
       "slug": "scoobydoo-adventures-episode-4",
       "category": "action",
-      "iframeUrl": "https://zh.y8.com/games/scoobydoo_adventures_episode_4",
+      "gameUrl": "https://zh.y8.com/games/scoobydoo_adventures_episode_4",
       "description": "Join Scooby-Doo and the Mystery Inc. gang in their latest adventure! Help them solve mysteries, collect clues, and uncover the truth behind the supernatural events in this exciting episode.",
       "howToPlay": "Use your mouse to interact with the game. Click on objects to investigate, collect items, and solve puzzles. Follow the story and help Scooby-Doo and his friends solve the mystery.",
       "features": [
@@ -149,7 +149,7 @@
       "title": "Brainrot Evolution",
       "slug": "brainrot-evolution",
       "category": "educational",
-      "iframeUrl": "https://zh.y8.com/games/brainrot_evolution",
+      "gameUrl": "https://zh.y8.com/games/brainrot_evolution",
       "description": "Challenge your brain with Brainrot Evolution! This educational game tests your cognitive abilities, memory, and problem-solving skills through engaging puzzles and brain-training exercises.",
       "howToPlay": "Use your mouse to interact with the game elements. Follow the instructions to complete various brain-training challenges. The game will test your memory, logic, and cognitive abilities through different levels.",
       "features": [

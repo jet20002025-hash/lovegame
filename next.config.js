@@ -7,6 +7,22 @@ const nextConfig = {
   },
   experimental: {
     appDir: true
+  },
+  // Disable static optimization for dynamic routes
+  generateStaticParams: false,
+  // Add custom headers to prevent index.txt requests
+  async headers() {
+    return [
+      {
+        source: '/category/:path*/index.txt',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'no-cache, no-store, must-revalidate',
+          },
+        ],
+      },
+    ]
   }
 }
 

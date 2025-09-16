@@ -12,9 +12,10 @@ interface GameDisplayProps {
 export default function GameDisplay({ gameUrl, title, className }: GameDisplayProps) {
   const [showIframe, setShowIframe] = useState(false)
 
-  // Check if the URL is from Y8.com or similar sites that don't allow iframe embedding
+  // Check if the URL is from sites that don't allow iframe embedding
   const isY8Game = gameUrl.includes('y8.com')
-  const isEmbeddable = !isY8Game
+  const isCoolMathGame = gameUrl.includes('coolmathgames.com')
+  const isEmbeddable = !isY8Game && !isCoolMathGame
 
   if (isEmbeddable) {
     return (
