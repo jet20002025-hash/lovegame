@@ -17,7 +17,7 @@ export default async function AboutPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">About Love Game Click</h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            Your ultimate destination for free online games. We're passionate about bringing 
+            Your ultimate destination for free online games. We&apos;re passionate about bringing 
             you the best gaming experience without any barriers.
           </p>
         </div>
@@ -35,8 +35,8 @@ export default async function AboutPage() {
             </p>
             <p className="text-gray-700 leading-relaxed">
               We carefully select each game to ensure it meets our standards for quality, 
-              fun, and accessibility. Whether you're looking for a quick puzzle to solve 
-              during your coffee break or an immersive adventure to dive into, we've got 
+              fun, and accessibility. Whether you&apos;re looking for a quick puzzle to solve 
+              during your coffee break or an immersive adventure to dive into, we&apos;ve got 
               something for everyone.
             </p>
           </div>
@@ -135,7 +135,7 @@ export default async function AboutPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">Community Focus</h3>
                 <p className="text-gray-700">
-                  We're building a community of gamers who share our passion for 
+                  We&apos;re building a community of gamers who share our passion for 
                   quality games and positive gaming experiences.
                 </p>
               </div>
@@ -159,7 +159,7 @@ export default async function AboutPage() {
         <section className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">Get in Touch</h2>
           <p className="text-xl text-gray-600 mb-8">
-            Have questions, suggestions, or want to submit a game? We'd love to hear from you!
+            Have questions, suggestions, or want to submit a game? We&apos;d love to hear from you!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 

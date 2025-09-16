@@ -128,7 +128,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <div className="text-6xl mb-4">🎮</div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">No Games Yet</h3>
             <p className="text-gray-600 mb-8">
-              We're working on adding more {category.name.toLowerCase()} to this category.
+              We&apos;re working on adding more {category.name.toLowerCase()} to this category.
             </p>
             <Link 
               href="/"
