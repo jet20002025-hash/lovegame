@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation'
 import { getGameBySlug, getGamesData } from '@/lib/games'
-import { Play, Star, Clock, Users, ArrowLeft, Maximize2 } from 'lucide-react'
+import { Play, Star, Clock, Users, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
+import FullscreenButton from '@/components/FullscreenButton'
 
 interface GamePageProps {
   params: {
@@ -117,17 +118,9 @@ export default async function GamePage({ params }: GamePageProps) {
                   allowFullScreen
                   title={game.title}
                 />
-                <button 
+                <FullscreenButton 
                   className="absolute top-4 right-4 bg-black bg-opacity-50 text-white p-2 rounded-lg hover:bg-opacity-70 transition-colors duration-200"
-                  onClick={() => {
-                    const iframe = document.querySelector('iframe') as HTMLIFrameElement
-                    if (iframe.requestFullscreen) {
-                      iframe.requestFullscreen()
-                    }
-                  }}
-                >
-                  <Maximize2 className="h-4 w-4" />
-                </button>
+                />
               </div>
               <div className="p-6">
                 <div className="flex items-center justify-between">
