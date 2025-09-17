@@ -2,68 +2,98 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://lovegame.click/</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/about</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://lovegame.click/category/driving</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/contact</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://lovegame.click/category/girls</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/category/puzzle</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <loc>https://lovegame.click/category/shooting</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/category/action</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <loc>https://lovegame.click/category/sports</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovegame.click/category/skill</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovegame.click/category/fighting</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovegame.click/category/thinking</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovegame.click/category/management</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lovegame.click/category/strategy</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/category/word</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <loc>https://lovegame.click/category/action</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lovegame.click/category/fun</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://lovegame.click/category/arcade</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/game/puzzle-master</loc>
-    <lastmod>2024-01-15T10:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://lovegame.click/category/educational</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/game/space-adventure</loc>
-    <lastmod>2024-01-10T15:30:00+00:00</lastmod>
+    <loc>https://lovegame.click/about</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://lovegame.click/game/word-challenge</loc>
-    <lastmod>2024-01-05T09:15:00+00:00</lastmod>
+    <loc>https://lovegame.click/contact</loc>
+    <lastmod>2025-01-17T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.6</priority>
   </url>
 </urlset>
