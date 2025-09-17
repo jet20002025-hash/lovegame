@@ -213,6 +213,45 @@
       "tags": ["action", "adventure", "new"],
       "publishedAt": "2024-09-17T06:21:00Z",
       "featured": true
+    },
+    {
+      "id": "hazmob-fps",
+      "title": "Hazmob FPS",
+      "slug": "hazmob-fps",
+      "category": "shooting",
+      "gameUrl": "https://zh.y8.com/games/hazmob_fps",
+      "description": "Experience intense first-person shooter action in Hazmob FPS! Engage in fast-paced combat, eliminate enemies, and survive in this thrilling shooting game with realistic graphics and smooth gameplay.",
+      "howToPlay": "Use WASD or arrow keys to move your character. Use your mouse to aim and shoot. Press R to reload your weapon. Collect ammo and health packs to survive longer. Complete objectives and eliminate all enemies to win.",
+      "features": [
+        "Realistic FPS gameplay",
+        "Multiple weapons to choose from",
+        "Intense combat scenarios",
+        "Smooth controls and movement",
+        "High-quality graphics",
+        "Challenging enemy AI"
+      ],
+      "faqs": [
+        {
+          "question": "What controls do I use for Hazmob FPS?",
+          "answer": "Use WASD or arrow keys to move, mouse to aim and shoot, and R key to reload your weapon."
+        },
+        {
+          "question": "Is this game suitable for all ages?",
+          "answer": "This is a shooting game with combat elements, so it's recommended for older players who enjoy action games."
+        },
+        {
+          "question": "Can I play on mobile devices?",
+          "answer": "Yes, Hazmob FPS is optimized for both desktop and mobile devices with touch controls."
+        },
+        {
+          "question": "How do I get better at the game?",
+          "answer": "Practice your aim, learn the maps, and master the different weapons. Each weapon has different characteristics and uses."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/889/file/w180h135_webp-ff7be474be5629fb3a63c568134935c3.webp",
+      "tags": ["fps", "shooting", "action", "combat", "new"],
+      "publishedAt": "2025-01-17T12:00:00Z",
+      "featured": true
     }
   ],
   "categories": [
