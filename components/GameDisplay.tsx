@@ -35,6 +35,29 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
     setIsLoading(false)
   }
 
+  // Handle iframe security error (X-Frame-Options)
+  const handleIframeSecurityError = () => {
+    console.log('Iframe security error (X-Frame-Options), showing fallback')
+    setIframeError(true)
+    setShowIframe(false)
+    setIsLoading(false)
+  }
+
+  // Add effect to handle X-Frame-Options errors
+  useEffect(() => {
+    if (showIframe && !iframeError) {
+      const timer = setTimeout(() => {
+        // If iframe hasn't loaded after 3 seconds, assume it's blocked
+        if (isLoading) {
+          console.log('Iframe timeout, assuming X-Frame-Options block')
+          handleIframeSecurityError()
+        }
+      }, 3000)
+
+      return () => clearTimeout(timer)
+    }
+  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame])
+
   // Try to load iframe first, show fallback if it fails
   if (showIframe && !iframeError) {
     return (
