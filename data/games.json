@@ -4,8 +4,8 @@
       "id": "puzzle-master",
       "title": "Puzzle Master",
       "slug": "puzzle-master",
-      "category": "puzzle",
-      "iframeUrl": "https://www.coolmathgames.com/0-puzzle-master",
+      "category": "thinking",
+      "gameUrl": "https://www.coolmathgames.com/0-puzzle-master",
       "description": "Challenge your mind with Puzzle Master, an engaging brain-teasing game that combines logic, strategy, and creativity. Solve increasingly complex puzzles and unlock new levels as you progress through this addictive puzzle adventure.",
       "howToPlay": "Use your mouse or touch to interact with puzzle pieces. Drag and drop elements to solve the puzzle. Each level has a specific objective - complete it to advance. Look for patterns and think strategically to find the solution.",
       "features": [
@@ -44,7 +44,7 @@
       "title": "Space Adventure",
       "slug": "space-adventure",
       "category": "action",
-      "iframeUrl": "https://www.coolmathgames.com/0-space-adventure",
+      "gameUrl": "https://www.coolmathgames.com/0-space-adventure",
       "description": "Embark on an epic space journey in this thrilling action game. Navigate through asteroid fields, battle alien enemies, and explore distant galaxies in this fast-paced space adventure.",
       "howToPlay": "Use arrow keys or WASD to move your spaceship. Press spacebar to shoot lasers at enemies. Collect power-ups to enhance your ship's abilities. Avoid asteroids and enemy fire to survive as long as possible.",
       "features": [
@@ -78,8 +78,8 @@
       "id": "word-challenge",
       "title": "Word Challenge",
       "slug": "word-challenge",
-      "category": "word",
-      "iframeUrl": "https://www.coolmathgames.com/0-word-challenge",
+      "category": "thinking",
+      "gameUrl": "https://www.coolmathgames.com/0-word-challenge",
       "description": "Test your vocabulary and spelling skills in this exciting word game. Create words from letter tiles, solve crossword puzzles, and challenge yourself with increasingly difficult word challenges.",
       "howToPlay": "Click and drag letter tiles to form words. Words must be at least 3 letters long and can be formed horizontally or vertically. Use bonus tiles to multiply your score and complete daily challenges.",
       "features": [
@@ -108,43 +108,243 @@
       "tags": ["word", "puzzle", "education", "vocabulary"],
       "publishedAt": "2024-01-05T09:15:00Z",
       "featured": false
+    },
+    {
+      "id": "scoobydoo-adventures-episode-4",
+      "title": "Scoobydoo Adventures Episode 4",
+      "slug": "scoobydoo-adventures-episode-4",
+      "category": "action",
+      "gameUrl": "https://zh.y8.com/games/scoobydoo_adventures_episode_4",
+      "description": "Join Scooby-Doo and the Mystery Inc. gang in their latest adventure! Help them solve mysteries, collect clues, and uncover the truth behind the supernatural events in this exciting episode.",
+      "howToPlay": "Use your mouse to interact with the game. Click on objects to investigate, collect items, and solve puzzles. Follow the story and help Scooby-Doo and his friends solve the mystery.",
+      "features": [
+        "Interactive mystery solving",
+        "Character-based gameplay",
+        "Multiple investigation areas",
+        "Clue collection system",
+        "Story-driven adventure",
+        "Classic Scooby-Doo characters"
+      ],
+      "faqs": [
+        {
+          "question": "How do I start playing?",
+          "answer": "Simply click on the game and it will load in your browser. No downloads required!"
+        },
+        {
+          "question": "Is this game free?",
+          "answer": "Yes, this game is completely free to play on our platform."
+        },
+        {
+          "question": "Can I play on mobile?",
+          "answer": "Yes, the game is mobile-friendly and can be played on smartphones and tablets."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/143215/file/w180h135_webp-f7b4437350a782249aab3247223be09b.webp",
+      "tags": ["adventure", "mystery", "scooby-doo", "action", "puzzle"],
+      "publishedAt": "2025-01-16T00:00:00.000Z",
+      "featured": true
+    },
+    {
+      "id": "brainrot-evolution",
+      "title": "Brainrot Evolution",
+      "slug": "brainrot-evolution",
+      "category": "educational",
+      "gameUrl": "https://zh.y8.com/games/brainrot_evolution",
+      "description": "Challenge your brain with Brainrot Evolution! This educational game tests your cognitive abilities, memory, and problem-solving skills through engaging puzzles and brain-training exercises.",
+      "howToPlay": "Use your mouse to interact with the game elements. Follow the instructions to complete various brain-training challenges. The game will test your memory, logic, and cognitive abilities through different levels.",
+      "features": [
+        "Brain-training exercises",
+        "Memory improvement challenges",
+        "Cognitive skill development",
+        "Progressive difficulty levels",
+        "Educational content",
+        "Mind-stimulating puzzles"
+      ],
+      "faqs": [
+        {
+          "question": "What is Brainrot Evolution?",
+          "answer": "It's an educational brain-training game designed to improve your cognitive abilities, memory, and problem-solving skills."
+        },
+        {
+          "question": "Is this game suitable for all ages?",
+          "answer": "Yes, Brainrot Evolution is designed to be educational and suitable for players of all ages who want to improve their mental abilities."
+        },
+        {
+          "question": "How does it help with brain training?",
+          "answer": "The game includes various puzzles and challenges that exercise different parts of your brain, helping improve memory, logic, and cognitive function."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/383851/file/w180h135_webp-7f234eecaf01a46fc647705a4918be37.webp",
+      "tags": ["educational", "brain-training", "puzzle", "memory", "cognitive", "learning"],
+      "publishedAt": "2025-01-16T01:00:00.000Z",
+      "featured": true
+    },
+    {
+      "id": "tung-tung-sahur-burning-desire",
+      "title": "Tung Tung Sahur Burning Desire",
+      "slug": "tung-tung-sahur-burning-desire",
+      "category": "action",
+      "gameUrl": "https://zh.y8.com/games/tung_tung_sahur_burning_desire",
+      "description": "Join Tung Tung Sahur in an exciting action adventure filled with burning desire and thrilling challenges. Navigate through dangerous environments and overcome obstacles in this fast-paced game.",
+      "howToPlay": "Use arrow keys or WASD to move your character. Follow the on-screen instructions to complete objectives and progress through levels. Avoid obstacles and enemies while collecting items.",
+      "features": [
+        "Exciting action gameplay",
+        "Engaging storyline",
+        "Multiple levels to complete",
+        "Challenging obstacles",
+        "Beautiful graphics",
+        "Addictive gameplay"
+      ],
+      "faqs": [
+        {
+          "question": "How do I control the character?",
+          "answer": "Use arrow keys or WASD keys to move your character around the game world."
+        },
+        {
+          "question": "Is this game free to play?",
+          "answer": "Yes! Tung Tung Sahur Burning Desire is completely free to play online."
+        },
+        {
+          "question": "Can I play on mobile devices?",
+          "answer": "Yes, the game is optimized for both desktop and mobile devices."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/189759/file/w180h135_webp-ff09a512471cc2b6d11e58dade115038.webp",
+      "tags": ["action", "adventure", "new"],
+      "publishedAt": "2024-09-17T06:21:00Z",
+      "featured": true
+    },
+    {
+      "id": "hazmob-fps",
+      "title": "Hazmob FPS",
+      "slug": "hazmob-fps",
+      "category": "shooting",
+      "gameUrl": "https://zh.y8.com/games/hazmob_fps",
+      "description": "Experience intense first-person shooter action in Hazmob FPS! Engage in fast-paced combat, eliminate enemies, and survive in this thrilling shooting game with realistic graphics and smooth gameplay.",
+      "howToPlay": "Use WASD or arrow keys to move your character. Use your mouse to aim and shoot. Press R to reload your weapon. Collect ammo and health packs to survive longer. Complete objectives and eliminate all enemies to win.",
+      "features": [
+        "Realistic FPS gameplay",
+        "Multiple weapons to choose from",
+        "Intense combat scenarios",
+        "Smooth controls and movement",
+        "High-quality graphics",
+        "Challenging enemy AI"
+      ],
+      "faqs": [
+        {
+          "question": "What controls do I use for Hazmob FPS?",
+          "answer": "Use WASD or arrow keys to move, mouse to aim and shoot, and R key to reload your weapon."
+        },
+        {
+          "question": "Is this game suitable for all ages?",
+          "answer": "This is a shooting game with combat elements, so it's recommended for older players who enjoy action games."
+        },
+        {
+          "question": "Can I play on mobile devices?",
+          "answer": "Yes, Hazmob FPS is optimized for both desktop and mobile devices with touch controls."
+        },
+        {
+          "question": "How do I get better at the game?",
+          "answer": "Practice your aim, learn the maps, and master the different weapons. Each weapon has different characteristics and uses."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/889/file/w180h135_webp-ff7be474be5629fb3a63c568134935c3.webp",
+      "tags": ["fps", "shooting", "action", "combat", "new"],
+      "publishedAt": "2025-01-17T12:00:00Z",
+      "featured": true
     }
   ],
   "categories": [
     {
-      "id": "puzzle",
-      "name": "Puzzle Games",
-      "description": "Brain-teasing puzzles and logic games",
-      "icon": "🧩",
+      "id": "driving",
+      "name": "Driving",
+      "description": "Car racing and vehicle simulation games",
+      "icon": "🚗",
       "color": "primary"
     },
     {
-      "id": "action",
-      "name": "Action Games",
-      "description": "Fast-paced action and adventure games",
-      "icon": "⚡",
-      "color": "accent"
+      "id": "girls",
+      "name": "Girls",
+      "description": "Fashion, dress-up and lifestyle games",
+      "icon": "👗",
+      "color": "pink"
+    },
+    {
+      "id": "shooting",
+      "name": "Shooting",
+      "description": "Action-packed shooting and combat games",
+      "icon": "🔫",
+      "color": "red"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Athletic and competitive sports games",
+      "icon": "⚽",
+      "color": "green"
+    },
+    {
+      "id": "skill",
+      "name": "Skill",
+      "description": "Games that test your reflexes and precision",
+      "icon": "🎯",
+      "color": "orange"
+    },
+    {
+      "id": "fighting",
+      "name": "Fighting",
+      "description": "Combat and martial arts games",
+      "icon": "👊",
+      "color": "red"
+    },
+    {
+      "id": "thinking",
+      "name": "Thinking",
+      "description": "Puzzle and brain-teasing games",
+      "icon": "🧩",
+      "color": "blue"
+    },
+    {
+      "id": "management",
+      "name": "Management & Simulation",
+      "description": "Business and life simulation games",
+      "icon": "🏢",
+      "color": "purple"
     },
     {
       "id": "strategy",
-      "name": "Strategy Games",
-      "description": "Tactical thinking and planning games",
+      "name": "Strategy & RPG",
+      "description": "Tactical thinking and role-playing games",
       "icon": "♟️",
-      "color": "secondary"
+      "color": "indigo"
     },
     {
-      "id": "word",
-      "name": "Word Games",
-      "description": "Vocabulary and language-based games",
-      "icon": "📝",
-      "color": "success"
+      "id": "action",
+      "name": "Action & Adventure",
+      "description": "Fast-paced action and adventure games",
+      "icon": "⚡",
+      "color": "yellow"
+    },
+    {
+      "id": "fun",
+      "name": "Fun & Crazy",
+      "description": "Whacky and entertaining games",
+      "icon": "🤪",
+      "color": "pink"
     },
     {
       "id": "arcade",
-      "name": "Arcade Games",
-      "description": "Classic arcade-style games",
+      "name": "Arcade & Classic",
+      "description": "Classic arcade and retro games",
       "icon": "🎮",
-      "color": "warning"
+      "color": "gray"
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "description": "Learning and educational games for all ages",
+      "icon": "📚",
+      "color": "teal"
     }
   ]
 }

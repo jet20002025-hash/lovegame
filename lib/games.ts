@@ -6,7 +6,8 @@ export interface Game {
   title: string
   slug: string
   category: string
-  iframeUrl: string
+  iframeUrl?: string
+  gameUrl?: string
   description: string
   howToPlay: string
   features: string[]
@@ -38,7 +39,17 @@ const dataFilePath = path.join(process.cwd(), 'data', 'games.json')
 export async function getGamesData(): Promise<GamesData> {
   try {
     const fileContents = fs.readFileSync(dataFilePath, 'utf8')
-    return JSON.parse(fileContents)
+    const data = JSON.parse(fileContents)
+    
+    // Sort games by publishedAt date (newest first)
+    const sortedGames = data.games.sort((a: Game, b: Game) => 
+      new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    )
+    
+    return {
+      games: sortedGames,
+      categories: data.categories
+    }
   } catch (error) {
     console.error('Error reading games data:', error)
     return { games: [], categories: [] }

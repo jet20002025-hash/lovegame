@@ -12,7 +12,7 @@ interface AddGameModalProps {
 interface GameData {
   title: string
   category: string
-  iframeUrl: string
+  gameUrl: string
   description: string
   howToPlay: string
   features: string[]
@@ -20,18 +20,26 @@ interface GameData {
 }
 
 const categories = [
-  { id: 'puzzle', name: 'Puzzle Games' },
-  { id: 'action', name: 'Action Games' },
-  { id: 'strategy', name: 'Strategy Games' },
-  { id: 'word', name: 'Word Games' },
-  { id: 'arcade', name: 'Arcade Games' },
+  { id: 'driving', name: 'Driving' },
+  { id: 'girls', name: 'Girls' },
+  { id: 'shooting', name: 'Shooting' },
+  { id: 'sports', name: 'Sports' },
+  { id: 'skill', name: 'Skill' },
+  { id: 'fighting', name: 'Fighting' },
+  { id: 'thinking', name: 'Thinking' },
+  { id: 'management', name: 'Management & Simulation' },
+  { id: 'strategy', name: 'Strategy & RPG' },
+  { id: 'action', name: 'Action & Adventure' },
+  { id: 'fun', name: 'Fun & Crazy' },
+  { id: 'arcade', name: 'Arcade & Classic' },
+  { id: 'educational', name: 'Educational' },
 ]
 
 export default function AddGameModal({ isOpen, onClose }: AddGameModalProps) {
   const [gameData, setGameData] = useState<GameData>({
     title: '',
-    category: 'puzzle',
-    iframeUrl: '',
+    category: 'action',
+    gameUrl: '',
     description: '',
     howToPlay: '',
     features: [''],
@@ -48,10 +56,10 @@ export default function AddGameModal({ isOpen, onClose }: AddGameModalProps) {
       newErrors.title = 'Game title is required'
     }
 
-    if (!gameData.iframeUrl.trim()) {
-      newErrors.iframeUrl = 'Game URL is required'
-    } else if (!isValidUrl(gameData.iframeUrl)) {
-      newErrors.iframeUrl = 'Please enter a valid URL'
+    if (!gameData.gameUrl.trim()) {
+      newErrors.gameUrl = 'Game URL is required'
+    } else if (!isValidUrl(gameData.gameUrl)) {
+      newErrors.gameUrl = 'Please enter a valid URL'
     }
 
     if (!gameData.description.trim()) {
@@ -100,7 +108,7 @@ export default function AddGameModal({ isOpen, onClose }: AddGameModalProps) {
       const newGame = {
         title: gameData.title.trim(),
         category: gameData.category,
-        iframeUrl: gameData.iframeUrl.trim(),
+        gameUrl: gameData.gameUrl.trim(),
         description: gameData.description.trim(),
         howToPlay: gameData.howToPlay.trim(),
         features: gameData.features.filter(f => f.trim()),
@@ -119,8 +127,8 @@ export default function AddGameModal({ isOpen, onClose }: AddGameModalProps) {
       // Reset form
       setGameData({
         title: '',
-        category: 'puzzle',
-        iframeUrl: '',
+        category: 'action',
+        gameUrl: '',
         description: '',
         howToPlay: '',
         features: [''],
@@ -255,19 +263,19 @@ export default function AddGameModal({ isOpen, onClose }: AddGameModalProps) {
 
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">
-                        Game iframe URL *
+                        Game URL *
                       </label>
                       <input
                         type="url"
-                        value={gameData.iframeUrl}
-                        onChange={(e) => setGameData(prev => ({ ...prev, iframeUrl: e.target.value }))}
-                        className={`input-field ${errors.iframeUrl ? 'border-red-500 focus:ring-red-500 focus:border-red-500' : ''}`}
-                        placeholder="https://example.com/game-embed"
+                        value={gameData.gameUrl}
+                        onChange={(e) => setGameData(prev => ({ ...prev, gameUrl: e.target.value }))}
+                        className={`input-field ${errors.gameUrl ? 'border-red-500 focus:ring-red-500 focus:border-red-500' : ''}`}
+                        placeholder="https://zh.y8.com/games/your-game"
                       />
-                      {errors.iframeUrl && (
+                      {errors.gameUrl && (
                         <p className="mt-1 text-sm text-red-600 flex items-center">
                           <AlertCircle className="h-4 w-4 mr-1" />
-                          {errors.iframeUrl}
+                          {errors.gameUrl}
                         </p>
                       )}
                     </div>

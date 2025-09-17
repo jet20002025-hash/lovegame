@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation'
-import { getGameBySlug, getGamesData } from '../../lib/games'
-import { Play, Star, Clock, Users, ArrowLeft, Maximize2 } from 'lucide-react'
+import { getGameBySlug, getGamesData } from '@/lib/games'
+import { Play, Star, Clock, Users, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
+import GameDisplay from '@/components/GameDisplay'
 
 interface GamePageProps {
   params: {
@@ -108,27 +109,13 @@ export default async function GamePage({ params }: GamePageProps) {
               <p className="text-xl text-gray-600 leading-relaxed">{game.description}</p>
             </div>
 
-            {/* Game iframe */}
+            {/* Game Display */}
             <div className="card mb-8">
-              <div className="aspect-video bg-gray-100 rounded-t-xl relative">
-                <iframe
-                  src={game.iframeUrl}
-                  className="game-iframe rounded-t-xl"
-                  allowFullScreen
-                  title={game.title}
-                />
-                <button 
-                  className="absolute top-4 right-4 bg-black bg-opacity-50 text-white p-2 rounded-lg hover:bg-opacity-70 transition-colors duration-200"
-                  onClick={() => {
-                    const iframe = document.querySelector('iframe') as HTMLIFrameElement
-                    if (iframe.requestFullscreen) {
-                      iframe.requestFullscreen()
-                    }
-                  }}
-                >
-                  <Maximize2 className="h-4 w-4" />
-                </button>
-              </div>
+              <GameDisplay
+                gameUrl={game.gameUrl}
+                title={game.title}
+                className="rounded-t-xl"
+              />
               <div className="p-6">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4 text-sm text-gray-500">

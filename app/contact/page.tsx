@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { getGamesData } from '../../lib/games'
+import { getGamesData } from '@/lib/games'
 
 export const metadata = {
   title: 'Contact Us - Love Game Click',
@@ -17,7 +17,7 @@ export default async function ContactPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl font-bold mb-6">Contact Us</h1>
           <p className="text-xl text-blue-100 max-w-2xl mx-auto">
-            We'd love to hear from you! Get in touch with questions, suggestions, or feedback.
+            We&apos;d love to hear from you! Get in touch with questions, suggestions, or feedback.
           </p>
         </div>
       </div>
@@ -97,8 +97,8 @@ export default async function ContactPage() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                We're here to help! Whether you have a question about our games, 
-                want to suggest a new game, or need technical support, we're just 
+                We&apos;re here to help! Whether you have a question about our games, 
+                want to suggest a new game, or need technical support, we&apos;re just 
                 a message away.
               </p>
             </div>
@@ -155,7 +155,7 @@ export default async function ContactPage() {
                 <div>
                   <h4 className="font-medium text-gray-900 mb-2">How do I submit a game?</h4>
                   <p className="text-sm text-gray-700">
-                    Send us an email with your game details and iframe URL. We'll review it and get back to you!
+                    Send us an email with your game details and iframe URL. We&apos;ll review it and get back to you!
                   </p>
                 </div>
                 <div>
