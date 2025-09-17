@@ -34,7 +34,7 @@
           "answer": "Don't worry! The game includes a hint system that can help you when you're stuck. You can also take a break and come back later with fresh eyes."
         }
       ],
-      "thumbnail": "/images/puzzle-master.jpg",
+      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/puzzle-master.jpg",
       "tags": ["puzzle", "brain", "casual", "strategy"],
       "publishedAt": "2024-01-15T10:00:00Z",
       "featured": true
@@ -69,7 +69,7 @@
           "answer": "Yes! Collect coins and power-ups to upgrade your ship's weapons, shields, and speed. Upgrades persist between games."
         }
       ],
-      "thumbnail": "/images/space-adventure.jpg",
+      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/space-adventure.jpg",
       "tags": ["action", "space", "shooter", "arcade"],
       "publishedAt": "2024-01-10T15:30:00Z",
       "featured": true
@@ -104,7 +104,7 @@
           "answer": "Bonus tiles multiply your score when used in words. Double letter, triple letter, double word, and triple word tiles provide different multipliers."
         }
       ],
-      "thumbnail": "/images/word-challenge.jpg",
+      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/word-challenge.jpg",
       "tags": ["word", "puzzle", "education", "vocabulary"],
       "publishedAt": "2024-01-05T09:15:00Z",
       "featured": false
@@ -251,6 +251,45 @@
       "thumbnail": "https://cdn2.y8.com/cloudimage/889/file/w180h135_webp-ff7be474be5629fb3a63c568134935c3.webp",
       "tags": ["fps", "shooting", "action", "combat", "new"],
       "publishedAt": "2025-01-17T12:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "home-design-decorate-house",
+      "title": "Home Design: Decorate House",
+      "slug": "home-design-decorate-house",
+      "category": "girls",
+      "gameUrl": "https://zh.y8.com/games/home_design_decorate_house",
+      "description": "Unleash your creativity with Home Design: Decorate House! Design and decorate beautiful homes with your own unique style. Choose from hundreds of furniture pieces, colors, and decorations to create the perfect living space.",
+      "howToPlay": "Use your mouse to interact with the game. Click and drag furniture items to place them in the house. Select different rooms to decorate and choose from various furniture categories. Mix and match colors and styles to create your dream home.",
+      "features": [
+        "Extensive furniture collection",
+        "Multiple room types to decorate",
+        "Color customization options",
+        "Creative design tools",
+        "Beautiful graphics and animations",
+        "Unlimited design possibilities"
+      ],
+      "faqs": [
+        {
+          "question": "How do I start decorating my house?",
+          "answer": "Simply click on the game and it will load in your browser. Use your mouse to select furniture and drag them to place in different rooms."
+        },
+        {
+          "question": "Can I change the colors of furniture?",
+          "answer": "Yes! You can customize colors and styles of furniture pieces to match your design preferences."
+        },
+        {
+          "question": "Is this game suitable for all ages?",
+          "answer": "Absolutely! Home Design: Decorate House is a creative and relaxing game perfect for players of all ages who enjoy interior design."
+        },
+        {
+          "question": "Can I save my designs?",
+          "answer": "The game allows you to create and view your designs. You can always start over with a new design if you want to try different styles."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/383337/file/w180h135_webp-057b0d12a681aec7fed7e328f8cfc727.webp",
+      "tags": ["home-design", "decorate", "girls", "creative", "interior-design", "new"],
+      "publishedAt": "2025-01-17T14:00:00Z",
       "featured": true
     }
   ],
