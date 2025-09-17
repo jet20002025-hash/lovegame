@@ -1,4 +1,4 @@
-# ads.txt file for plovegame.click
+# ads.txt file for lovegame.click
 # This file helps prevent unauthorized ad sales on your website
 
 # Google AdSense
