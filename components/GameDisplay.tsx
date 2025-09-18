@@ -10,16 +10,19 @@ interface GameDisplayProps {
 }
 
 export default function GameDisplay({ gameUrl, title, className }: GameDisplayProps) {
-  const [showIframe, setShowIframe] = useState(true)
-  const [iframeError, setIframeError] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
-
   // Check if the URL is from sites that might have iframe restrictions
   const isY8Game = gameUrl.includes('y8.com')
   const isCoolMathGame = gameUrl.includes('coolmathgames.com')
+  
+  // For Y8.com and CoolMathGames.com, immediately show fallback
+  const shouldShowFallback = isY8Game || isCoolMathGame
+  
+  const [showIframe, setShowIframe] = useState(!shouldShowFallback)
+  const [iframeError, setIframeError] = useState(shouldShowFallback)
+  const [isLoading, setIsLoading] = useState(!shouldShowFallback)
 
   // Debug logging
-  console.log('GameDisplay:', { gameUrl, isY8Game, isCoolMathGame, showIframe, iframeError })
+  console.log('GameDisplay:', { gameUrl, isY8Game, isCoolMathGame, showIframe, iframeError, shouldShowFallback })
 
   // Handle iframe load error
   const handleIframeError = () => {
@@ -93,29 +96,24 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
           <p className="text-gray-600 mb-6">Click the button below to play this game</p>
         </div>
         
-        {/* Primary action - try to play in current tab first */}
+        {/* Primary action - open in new tab */}
         <div className="space-y-4">
-          <button
-            onClick={() => {
-              // Try to open in current tab first
-              window.location.href = gameUrl
-            }}
-            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2"
-          >
-            <Play className="h-5 w-5" />
-            <span>Play Game</span>
-          </button>
-          
-          {/* Secondary action - open in new tab */}
           <a
             href={gameUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-800 font-medium transition-colors duration-200"
+            className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold px-8 py-4 rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2"
           >
+            <Play className="h-5 w-5" />
+            <span>Play Game (Opens in new tab)</span>
             <ExternalLink className="h-4 w-4" />
-            <span>Open in new tab</span>
           </a>
+          
+          {/* Explanation for why it opens in new tab */}
+          <p className="text-sm text-gray-500 mt-4 flex items-center justify-center space-x-2">
+            <AlertTriangle className="h-4 w-4 text-yellow-500" />
+            <span>This game cannot be embedded due to external website restrictions.</span>
+          </p>
         </div>
         
         <p className="text-sm text-gray-500 mt-4">

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { Play, Star, Clock, Users, Sparkles } from 'lucide-react'
 import { getGamesData } from '@/lib/games'
+import GameCard from '@/components/GameCard'
 
 export const metadata = {
   title: 'Love Game Click - Ultimate Gaming Hub',
@@ -96,45 +97,12 @@ export default async function HomePage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {featuredGames.map((game, index) => (
-              <div key={game.id} className="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden">
-                <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative">
-                  <Play className="h-16 w-16 text-gray-400" />
-                  <div className="absolute top-4 right-4 bg-white bg-opacity-90 rounded-full p-2">
-                    <Star className="h-5 w-5 text-yellow-500 fill-current" />
-                  </div>
-                </div>
-                <div className="p-8">
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-sm font-semibold text-blue-600 uppercase tracking-wide">
-                      {categories.find(cat => cat.id === game.category)?.name}
-                    </span>
-                    <div className="flex items-center space-x-1">
-                      <Star className="h-4 w-4 text-yellow-400 fill-current" />
-                      <span className="text-sm text-gray-600 font-medium">4.8</span>
-                    </div>
-                  </div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">{game.title}</h3>
-                  <p className="text-gray-600 mb-6 line-clamp-3">{game.description}</p>
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center space-x-4 text-sm text-gray-500">
-                      <div className="flex items-center space-x-1">
-                        <Clock className="h-4 w-4" />
-                        <span>5 min</span>
-                      </div>
-                      <div className="flex items-center space-x-1">
-                        <Users className="h-4 w-4" />
-                        <span>1.2k</span>
-                      </div>
-                    </div>
-                    <Link 
-                      href={`/game/${game.slug}`}
-                      className="bg-blue-600 text-white hover:bg-blue-700 font-semibold px-6 py-3 rounded-xl transition-colors duration-200"
-                    >
-                      Play Now
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              <GameCard
+                key={game.id}
+                game={game}
+                categoryName={categories.find(cat => cat.id === game.category)?.name}
+                size="large"
+              />
             ))}
           </div>
         </div>
@@ -184,33 +152,13 @@ export default async function HomePage() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {recentGames.map((game, index) => (
-              <div key={game.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden">
-                <div className="aspect-video bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center relative">
-                  <Play className="h-12 w-12 text-gray-400" />
-                  <div className="absolute top-3 right-3 bg-green-500 text-white text-xs font-bold px-2 py-1 rounded-full">
-                    NEW
-                  </div>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center justify-between mb-3">
-                    <span className="text-xs font-semibold text-purple-600 uppercase tracking-wide">
-                      {categories.find(cat => cat.id === game.category)?.name}
-                    </span>
-                    <div className="flex items-center space-x-1">
-                      <Star className="h-4 w-4 text-yellow-400 fill-current" />
-                      <span className="text-sm text-gray-600">4.8</span>
-                    </div>
-                  </div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{game.title}</h3>
-                  <p className="text-gray-600 mb-4 line-clamp-2 text-sm">{game.description}</p>
-                  <Link 
-                    href={`/game/${game.slug}`}
-                    className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700 font-semibold px-4 py-3 rounded-xl transition-all duration-200 text-center block"
-                  >
-                    Play Now
-                  </Link>
-                </div>
-              </div>
+              <GameCard
+                key={game.id}
+                game={game}
+                categoryName={categories.find(cat => cat.id === game.category)?.name}
+                showNewBadge={true}
+                size="small"
+              />
             ))}
           </div>
         </div>
