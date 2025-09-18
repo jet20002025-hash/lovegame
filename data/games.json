@@ -334,6 +334,53 @@
       "tags": ["skill", "endless", "running", "arcade", "challenging", "addictive"],
       "publishedAt": "2025-01-17T15:00:00Z",
       "featured": true
+    },
+    {
+      "id": "number-merge",
+      "title": "Number Merge",
+      "slug": "number-merge",
+      "category": "thinking",
+      "gameUrl": "https://zh.y8.com/games/number_merge_html5",
+      "description": "Challenge your mathematical skills with Number Merge! Combine numbers strategically to create higher values and achieve the highest score possible. This addictive puzzle game tests your logic and planning abilities while providing endless entertainment.",
+      "howToPlay": "Use your mouse or touch to move number tiles around the board. Combine identical numbers to create higher values. Plan your moves carefully to maximize your score and avoid filling up the board. The goal is to create the highest possible numbers and achieve the best score.",
+      "features": [
+        "Strategic number combination gameplay",
+        "Progressive difficulty levels",
+        "High score tracking system",
+        "Smooth and intuitive controls",
+        "Addictive puzzle mechanics",
+        "Mobile-friendly touch interface"
+      ],
+      "faqs": [
+        {
+          "question": "How do I combine numbers in Number Merge?",
+          "answer": "Move identical numbers next to each other to combine them into a higher value. For example, combining two '2' tiles creates a '4' tile."
+        },
+        {
+          "question": "What happens when the board fills up?",
+          "answer": "When the board is full and you can't make any more moves, the game ends. Try to plan ahead and create space by combining numbers strategically."
+        },
+        {
+          "question": "Is Number Merge free to play?",
+          "answer": "Yes! Number Merge is completely free to play online. No downloads or registration required."
+        },
+        {
+          "question": "Can I play Number Merge on mobile devices?",
+          "answer": "Absolutely! Number Merge is optimized for both desktop and mobile devices with touch controls."
+        },
+        {
+          "question": "How do I get a high score?",
+          "answer": "Focus on creating the highest possible numbers by combining tiles strategically. Plan your moves carefully and try to keep the board as clear as possible."
+        },
+        {
+          "question": "Are there any tips for playing Number Merge?",
+          "answer": "Yes! Try to keep your highest numbers in corners, plan several moves ahead, and don't rush your decisions. Take your time to find the best combinations."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/383947/file/w180h135_webp-03dfcee9cf08ade29f62a75a7df372bf.webp",
+      "tags": ["number", "merge", "puzzle", "math", "strategy", "thinking"],
+      "publishedAt": "2025-01-17T16:00:00Z",
+      "featured": true
     }
   ],
   "categories": [
