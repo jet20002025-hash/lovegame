@@ -1,41 +1,6 @@
 {
   "games": [
     {
-      "id": "space-adventure",
-      "title": "Space Adventure",
-      "slug": "space-adventure",
-      "category": "action",
-      "gameUrl": "https://www.coolmathgames.com/0-space-adventure",
-      "description": "Embark on an epic space journey in this thrilling action game. Navigate through asteroid fields, battle alien enemies, and explore distant galaxies in this fast-paced space adventure.",
-      "howToPlay": "Use arrow keys or WASD to move your spaceship. Press spacebar to shoot lasers at enemies. Collect power-ups to enhance your ship's abilities. Avoid asteroids and enemy fire to survive as long as possible.",
-      "features": [
-        "Multiple spaceship upgrades",
-        "Dynamic enemy AI",
-        "Power-up collection system",
-        "High score leaderboard",
-        "Multiple difficulty levels",
-        "Stunning space graphics"
-      ],
-      "faqs": [
-        {
-          "question": "What controls do I use for Space Adventure?",
-          "answer": "Use arrow keys or WASD to move your spaceship, and press spacebar to shoot. You can also use mouse controls for aiming."
-        },
-        {
-          "question": "How do I get a high score?",
-          "answer": "Destroy enemies, collect power-ups, and survive as long as possible. Each enemy destroyed gives you points, and power-ups provide bonus multipliers."
-        },
-        {
-          "question": "Can I upgrade my spaceship?",
-          "answer": "Yes! Collect coins and power-ups to upgrade your ship's weapons, shields, and speed. Upgrades persist between games."
-        }
-      ],
-      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/space-adventure.jpg",
-      "tags": ["action", "space", "shooter", "arcade"],
-      "publishedAt": "2024-01-10T15:30:00Z",
-      "featured": true
-    },
-    {
       "id": "word-challenge",
       "title": "Word Challenge",
       "slug": "word-challenge",
