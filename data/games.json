@@ -229,6 +229,201 @@
       "tags": ["scratch", "creative", "studio", "design", "educational", "experimental"],
       "publishedAt": "2025-01-18T14:00:00Z",
       "featured": true
+    },
+    {
+      "id": "scratch-game-5",
+      "title": "Scratch Interactive Adventure 5",
+      "slug": "scratch-game-5",
+      "category": "action",
+      "gameUrl": "https://scratch.mit.edu/projects/1215638864/embed",
+      "description": "Embark on an epic interactive adventure in this amazing Scratch creation! This action-packed game features dynamic gameplay, engaging storylines, and interactive elements that provide hours of entertainment.",
+      "howToPlay": "Navigate through the adventure world using your mouse or keyboard controls. Complete quests, solve puzzles, and interact with characters as you progress through the exciting storyline.",
+      "features": [
+        "Epic adventure storyline",
+        "Interactive character dialogue",
+        "Dynamic quest system",
+        "Puzzle-solving challenges",
+        "Community-created content",
+        "Immersive gameplay experience"
+      ],
+      "faqs": [
+        {
+          "question": "What type of adventure is this?",
+          "answer": "This is an interactive adventure game with action elements, featuring exploration, character interaction, and quest completion."
+        },
+        {
+          "question": "How do I progress in the game?",
+          "answer": "Complete quests, solve puzzles, and interact with characters to advance through the storyline and unlock new areas."
+        },
+        {
+          "question": "Are there multiple endings?",
+          "answer": "The game features branching storylines and multiple paths, allowing for different gameplay experiences and outcomes."
+        },
+        {
+          "question": "Can I replay the adventure?",
+          "answer": "Yes! You can replay the game to explore different choices and discover all the hidden secrets and alternative paths."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1215638864_282x210.png",
+      "tags": ["scratch", "adventure", "action", "interactive", "story", "quest"],
+      "publishedAt": "2025-01-18T15:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-6",
+      "title": "Scratch Creative Challenge 6",
+      "slug": "scratch-game-6",
+      "category": "skill",
+      "gameUrl": "https://scratch.mit.edu/projects/1217989084/embed",
+      "description": "Test your skills and reflexes in this challenging Scratch creation! This skill-based game combines precision, timing, and strategy to create an engaging and competitive gaming experience.",
+      "howToPlay": "Use precise timing and quick reflexes to overcome challenges. Master the controls, learn the patterns, and improve your skills as you progress through increasingly difficult levels.",
+      "features": [
+        "Skill-based gameplay mechanics",
+        "Precision timing challenges",
+        "Progressive difficulty system",
+        "Competitive scoring system",
+        "Reflex training elements",
+        "Community leaderboards"
+      ],
+      "faqs": [
+        {
+          "question": "What skills does this game test?",
+          "answer": "This game tests your reflexes, timing, precision, and strategic thinking through various challenging scenarios."
+        },
+        {
+          "question": "Is this game suitable for beginners?",
+          "answer": "The game starts with easier challenges and gradually increases in difficulty, making it accessible for players of all skill levels."
+        },
+        {
+          "question": "How do I improve my performance?",
+          "answer": "Practice regularly, learn the patterns, and focus on timing and precision. Each attempt helps you improve your skills."
+        },
+        {
+          "question": "Are there different game modes?",
+          "answer": "The game features multiple challenge modes and difficulty levels to keep the gameplay fresh and engaging."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1217989084_282x210.png",
+      "tags": ["scratch", "skill", "challenge", "reflex", "precision", "competitive"],
+      "publishedAt": "2025-01-18T16:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-7",
+      "title": "Scratch Puzzle Master 7",
+      "slug": "scratch-game-7",
+      "category": "thinking",
+      "gameUrl": "https://scratch.mit.edu/projects/1207672079/embed",
+      "description": "Challenge your mind with this innovative puzzle game from the Scratch community! This brain-teasing game combines logic, strategy, and creativity to create an engaging puzzle-solving experience.",
+      "howToPlay": "Analyze the puzzle elements and use logical thinking to solve challenges. Drag and drop pieces, follow patterns, and use strategic planning to complete each level successfully.",
+      "features": [
+        "Brain-teasing puzzle mechanics",
+        "Logical thinking challenges",
+        "Progressive difficulty system",
+        "Creative problem-solving",
+        "Visual puzzle elements",
+        "Community-designed content"
+      ],
+      "faqs": [
+        {
+          "question": "What skills does this game develop?",
+          "answer": "This game helps develop logical thinking, pattern recognition, strategic planning, and problem-solving skills."
+        },
+        {
+          "question": "Is this game suitable for beginners?",
+          "answer": "Yes! The game starts with simple puzzles and gradually increases in difficulty, making it accessible for all skill levels."
+        },
+        {
+          "question": "How do I solve difficult puzzles?",
+          "answer": "Take your time to analyze the puzzle, look for patterns, and try different approaches. Sometimes stepping back helps you see the solution."
+        },
+        {
+          "question": "Are there hints available?",
+          "answer": "The game provides visual cues and progressive difficulty to guide you through the puzzles naturally."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1207672079_282x210.png",
+      "tags": ["scratch", "puzzle", "thinking", "logic", "strategy", "brain-training"],
+      "publishedAt": "2025-01-18T17:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-8",
+      "title": "Scratch Fun Arcade 8",
+      "slug": "scratch-game-8",
+      "category": "arcade",
+      "gameUrl": "https://scratch.mit.edu/projects/1218989704/embed",
+      "description": "Enjoy classic arcade fun in this entertaining Scratch creation! This retro-style game brings back the excitement of traditional arcade gaming with modern interactive elements and engaging gameplay.",
+      "howToPlay": "Use classic arcade controls to navigate through the game. Collect points, avoid obstacles, and master the gameplay mechanics to achieve high scores and unlock new levels.",
+      "features": [
+        "Classic arcade gameplay",
+        "Retro-style graphics and sounds",
+        "High score system",
+        "Multiple game levels",
+        "Nostalgic gaming experience",
+        "Community-created content"
+      ],
+      "faqs": [
+        {
+          "question": "What makes this game arcade-style?",
+          "answer": "This game features classic arcade mechanics, retro graphics, and traditional scoring systems that evoke the golden age of arcade gaming."
+        },
+        {
+          "question": "How do I achieve high scores?",
+          "answer": "Master the controls, learn the patterns, and collect bonus items while avoiding obstacles to maximize your score."
+        },
+        {
+          "question": "Are there different levels?",
+          "answer": "Yes! The game features multiple levels with increasing difficulty and new challenges to keep the gameplay exciting."
+        },
+        {
+          "question": "Can I compete with others?",
+          "answer": "While there's no direct multiplayer, you can compare your scores with friends and try to beat the community high scores."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1218989704_282x210.png",
+      "tags": ["scratch", "arcade", "retro", "classic", "fun", "nostalgic"],
+      "publishedAt": "2025-01-18T18:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-9",
+      "title": "Scratch Creative World 9",
+      "slug": "scratch-game-9",
+      "category": "educational",
+      "gameUrl": "https://scratch.mit.edu/projects/1218981066/embed",
+      "description": "Explore a world of creativity and learning in this amazing Scratch creation! This educational game combines exploration, creativity, and interactive learning to create an engaging and informative experience.",
+      "howToPlay": "Explore the creative world by clicking and interacting with various elements. Discover new areas, learn new concepts, and experiment with different tools and features as you progress.",
+      "features": [
+        "Interactive learning environment",
+        "Creative exploration elements",
+        "Educational content integration",
+        "Progressive discovery system",
+        "Community collaboration features",
+        "Multi-sensory learning experience"
+      ],
+      "faqs": [
+        {
+          "question": "What can I learn from this game?",
+          "answer": "This game teaches creative thinking, problem-solving, and interactive programming concepts through hands-on exploration and experimentation."
+        },
+        {
+          "question": "Is this suitable for educational use?",
+          "answer": "Yes! This game is designed with educational principles in mind and can be used as a learning tool in various educational settings."
+        },
+        {
+          "question": "How do I explore the world?",
+          "answer": "Click on different elements, interact with objects, and follow the guided exploration paths to discover new areas and features."
+        },
+        {
+          "question": "Can I create my own content?",
+          "answer": "While you can't modify the core game, you can experiment with the interactive elements and discover creative possibilities within the game world."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1218981066_282x210.png",
+      "tags": ["scratch", "educational", "creative", "exploration", "learning", "interactive"],
+      "publishedAt": "2025-01-18T19:00:00Z",
+      "featured": true
     }
   ],
   "categories": [
