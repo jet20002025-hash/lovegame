@@ -82,7 +82,8 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
           title={title}
           onError={handleIframeError}
           onLoad={handleIframeLoad}
-          sandbox={isScratchGame ? "allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation" : "allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"}
+          sandbox={isScratchGame ? undefined : "allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         />
       </div>
     )
