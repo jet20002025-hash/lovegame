@@ -96,7 +96,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
           onError={handleIframeError}
           onLoad={handleIframeLoad}
           sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
         />
       </div>
     )
