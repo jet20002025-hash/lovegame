@@ -41,32 +41,32 @@
       "slug": "scratch-creative-game",
       "category": "educational",
       "gameUrl": "https://scratch.mit.edu/projects/1218786621/embed",
-      "description": "体验这个由Scratch社区创作的精彩游戏！这是一个充满创意和想象力的互动游戏，适合所有年龄段的玩家。通过简单的操作和有趣的游戏机制，享受游戏带来的乐趣。",
-      "howToPlay": "使用鼠标点击和拖拽来与游戏互动。根据游戏内的提示进行操作，探索不同的游戏元素和功能。每个Scratch游戏都有其独特的玩法和目标。",
+      "description": "Experience this wonderful game created by the Scratch community! This is an interactive game full of creativity and imagination, suitable for players of all ages. Enjoy the fun brought by the game through simple operations and interesting game mechanics.",
+      "howToPlay": "Use your mouse to click and drag to interact with the game. Follow the in-game instructions to operate and explore different game elements and functions. Each Scratch game has its unique gameplay and objectives.",
       "features": [
-        "社区创作的创意游戏",
-        "简单易学的操作方式",
-        "适合所有年龄段",
-        "充满想象力的游戏内容",
-        "教育性和娱乐性并重",
-        "支持全屏游戏体验"
+        "Community-created creative game",
+        "Simple and easy-to-learn controls",
+        "Suitable for all ages",
+        "Imaginative game content",
+        "Educational and entertaining",
+        "Full-screen gaming experience"
       ],
       "faqs": [
         {
-          "question": "如何开始游戏？",
-          "answer": "游戏会自动加载，您可以直接在页面上开始游戏。使用鼠标与游戏元素互动即可。"
+          "question": "How do I start playing?",
+          "answer": "The game will load automatically, and you can start playing directly on the page. Use your mouse to interact with game elements."
         },
         {
-          "question": "这个游戏是免费的吗？",
-          "answer": "是的！这是一个完全免费的游戏，由Scratch社区创作并分享。"
+          "question": "Is this game free?",
+          "answer": "Yes! This is a completely free game created and shared by the Scratch community."
         },
         {
-          "question": "可以在手机上玩吗？",
-          "answer": "可以！游戏支持移动设备，您可以在手机或平板上享受游戏乐趣。"
+          "question": "Can I play on mobile devices?",
+          "answer": "Yes! The game supports mobile devices, and you can enjoy the game on your phone or tablet."
         },
         {
-          "question": "游戏有什么特色？",
-          "answer": "这是Scratch平台上的创意游戏，通常包含教育元素和互动性，非常适合学习和娱乐。"
+          "question": "What are the features of this game?",
+          "answer": "This is a creative game on the Scratch platform, usually containing educational elements and interactivity, perfect for learning and entertainment."
         }
       ],
       "thumbnail": "https://scratch.mit.edu/get_image/project/1218786621_282x210.png",
