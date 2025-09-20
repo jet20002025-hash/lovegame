@@ -1,45 +1,6 @@
 {
   "games": [
     {
-      "id": "puzzle-master",
-      "title": "Puzzle Master",
-      "slug": "puzzle-master",
-      "category": "thinking",
-      "gameUrl": "https://www.coolmathgames.com/0-puzzle-master",
-      "description": "Challenge your mind with Puzzle Master, an engaging brain-teasing game that combines logic, strategy, and creativity. Solve increasingly complex puzzles and unlock new levels as you progress through this addictive puzzle adventure.",
-      "howToPlay": "Use your mouse or touch to interact with puzzle pieces. Drag and drop elements to solve the puzzle. Each level has a specific objective - complete it to advance. Look for patterns and think strategically to find the solution.",
-      "features": [
-        "100+ challenging puzzle levels",
-        "Multiple puzzle types and mechanics",
-        "Progressive difficulty system",
-        "Hint system for difficult puzzles",
-        "Achievement system",
-        "Mobile-friendly touch controls"
-      ],
-      "faqs": [
-        {
-          "question": "How do I start playing Puzzle Master?",
-          "answer": "Simply click the 'Play Now' button and the game will load in your browser. No downloads or installations required!"
-        },
-        {
-          "question": "Is Puzzle Master free to play?",
-          "answer": "Yes! Puzzle Master is completely free to play. You can enjoy all levels without any cost."
-        },
-        {
-          "question": "Can I play on mobile devices?",
-          "answer": "Absolutely! Puzzle Master is optimized for both desktop and mobile devices. Touch controls work seamlessly on smartphones and tablets."
-        },
-        {
-          "question": "What if I get stuck on a puzzle?",
-          "answer": "Don't worry! The game includes a hint system that can help you when you're stuck. You can also take a break and come back later with fresh eyes."
-        }
-      ],
-      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/puzzle-master.jpg",
-      "tags": ["puzzle", "brain", "casual", "strategy"],
-      "publishedAt": "2024-01-15T10:00:00Z",
-      "featured": true
-    },
-    {
       "id": "space-adventure",
       "title": "Space Adventure",
       "slug": "space-adventure",
