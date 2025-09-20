@@ -24,7 +24,17 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   const [isLoading, setIsLoading] = useState(!shouldShowFallback)
 
   // Debug logging
-  console.log('GameDisplay:', { gameUrl, isY8Game, isCoolMathGame, isScratchGame, showIframe, iframeError, shouldShowFallback })
+  console.log('GameDisplay:', { 
+    gameUrl, 
+    isY8Game, 
+    isCoolMathGame, 
+    isScratchGame, 
+    showIframe, 
+    iframeError, 
+    shouldShowFallback,
+    isLoading,
+    timeoutDuration: isScratchGame ? 10000 : 3000
+  })
 
   // Handle iframe load error
   const handleIframeError = () => {
@@ -36,7 +46,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
 
   // Handle iframe load success
   const handleIframeLoad = () => {
-    console.log('Iframe loaded successfully')
+    console.log('Iframe loaded successfully for:', gameUrl)
     setIsLoading(false)
   }
 
@@ -51,13 +61,16 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   // Add effect to handle X-Frame-Options errors
   useEffect(() => {
     if (showIframe && !iframeError) {
+      // Give Scratch games more time to load, other games 3 seconds
+      const timeoutDuration = isScratchGame ? 10000 : 3000
+      
       const timer = setTimeout(() => {
-        // If iframe hasn't loaded after 3 seconds, assume it's blocked
+        // If iframe hasn't loaded after timeout, assume it's blocked
         if (isLoading) {
-          console.log('Iframe timeout, assuming X-Frame-Options block')
+          console.log(`Iframe timeout after ${timeoutDuration}ms, assuming X-Frame-Options block`)
           handleIframeSecurityError()
         }
-      }, 3000)
+      }, timeoutDuration)
 
       return () => clearTimeout(timer)
     }
