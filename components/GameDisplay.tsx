@@ -15,15 +15,22 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   const isCoolMathGame = gameUrl.includes('coolmathgames.com')
   const isScratchGame = gameUrl.includes('scratch.mit.edu')
   
-  // For Y8.com and CoolMathGames.com, immediately show fallback
-  // Scratch games can be embedded directly
-  const shouldShowFallback = isY8Game || isCoolMathGame
+  // Try to embed all games first, show fallback only if iframe fails
+  // This allows us to test which games can actually be embedded
+  const shouldShowFallback = false
   
-  const [showIframe, setShowIframe] = useState(!shouldShowFallback)
-  const [iframeError, setIframeError] = useState(shouldShowFallback)
-  const [isLoading, setIsLoading] = useState(!shouldShowFallback)
+  const [showIframe, setShowIframe] = useState(true)
+  const [iframeError, setIframeError] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   // Debug logging
+  const getTimeoutDuration = () => {
+    if (isScratchGame) return 10000
+    if (isY8Game) return 3000
+    if (isCoolMathGame) return 3000
+    return 5000
+  }
+  
   console.log('GameDisplay:', { 
     gameUrl, 
     isY8Game, 
@@ -33,7 +40,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
     iframeError, 
     shouldShowFallback,
     isLoading,
-    timeoutDuration: isScratchGame ? 10000 : 3000
+    timeoutDuration: getTimeoutDuration()
   })
 
   // Handle iframe load error
@@ -61,20 +68,27 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   // Add effect to handle X-Frame-Options errors
   useEffect(() => {
     if (showIframe && !iframeError) {
-      // Give Scratch games more time to load, other games 3 seconds
-      const timeoutDuration = isScratchGame ? 10000 : 3000
+      // Set different timeout durations based on game type
+      let timeoutDuration = 5000 // Default 5 seconds
+      if (isScratchGame) {
+        timeoutDuration = 10000 // Scratch games get 10 seconds
+      } else if (isY8Game) {
+        timeoutDuration = 3000 // Y8 games get 3 seconds (usually blocked)
+      } else if (isCoolMathGame) {
+        timeoutDuration = 3000 // CoolMathGames get 3 seconds (usually blocked)
+      }
       
       const timer = setTimeout(() => {
         // If iframe hasn't loaded after timeout, assume it's blocked
         if (isLoading) {
-          console.log(`Iframe timeout after ${timeoutDuration}ms, assuming X-Frame-Options block`)
+          console.log(`Iframe timeout after ${timeoutDuration}ms for ${gameUrl}, assuming X-Frame-Options block`)
           handleIframeSecurityError()
         }
       }, timeoutDuration)
 
       return () => clearTimeout(timer)
     }
-  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame, isScratchGame])
+  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame, isScratchGame, gameUrl])
 
   // Try to load iframe first, show fallback if it fails
   if (showIframe && !iframeError) {
