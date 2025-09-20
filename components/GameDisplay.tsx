@@ -24,13 +24,6 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   const [isLoading, setIsLoading] = useState(true)
 
   // Debug logging
-  const getTimeoutDuration = () => {
-    if (isScratchGame) return 10000
-    if (isY8Game) return 3000
-    if (isCoolMathGame) return 3000
-    return 5000
-  }
-  
   console.log('GameDisplay:', { 
     gameUrl, 
     isY8Game, 
@@ -40,7 +33,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
     iframeError, 
     shouldShowFallback,
     isLoading,
-    timeoutDuration: getTimeoutDuration()
+    timeoutDuration: 10000 // All games get 10 seconds
   })
 
   // Handle iframe load error
@@ -68,15 +61,8 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   // Add effect to handle X-Frame-Options errors
   useEffect(() => {
     if (showIframe && !iframeError) {
-      // Set different timeout durations based on game type
-      let timeoutDuration = 5000 // Default 5 seconds
-      if (isScratchGame) {
-        timeoutDuration = 10000 // Scratch games get 10 seconds
-      } else if (isY8Game) {
-        timeoutDuration = 3000 // Y8 games get 3 seconds (usually blocked)
-      } else if (isCoolMathGame) {
-        timeoutDuration = 3000 // CoolMathGames get 3 seconds (usually blocked)
-      }
+      // Give all games 10 seconds to load - this provides better UX for slower networks
+      const timeoutDuration = 10000 // 10 seconds for all games
       
       const timer = setTimeout(() => {
         // If iframe hasn't loaded after timeout, assume it's blocked
