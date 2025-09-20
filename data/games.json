@@ -73,6 +73,162 @@
       "tags": ["scratch", "educational", "creative", "interactive", "community", "new"],
       "publishedAt": "2025-01-18T10:00:00Z",
       "featured": true
+    },
+    {
+      "id": "scratch-game-1",
+      "title": "Scratch Interactive Game 1",
+      "slug": "scratch-game-1",
+      "category": "educational",
+      "gameUrl": "https://scratch.mit.edu/projects/1206938023/embed",
+      "description": "Discover this amazing interactive game created by the Scratch community! This educational game combines fun and learning, featuring engaging gameplay mechanics that challenge your creativity and problem-solving skills.",
+      "howToPlay": "Use your mouse to interact with the game elements. Click and drag objects, follow the instructions, and explore the interactive features. Each level presents new challenges and learning opportunities.",
+      "features": [
+        "Interactive educational gameplay",
+        "Creative problem-solving challenges",
+        "Community-driven content",
+        "Progressive difficulty levels",
+        "Visual programming concepts",
+        "Cross-platform compatibility"
+      ],
+      "faqs": [
+        {
+          "question": "How do I control the game?",
+          "answer": "Use your mouse to click and interact with game elements. Follow the on-screen instructions for specific controls."
+        },
+        {
+          "question": "Is this game educational?",
+          "answer": "Yes! This game teaches programming concepts and logical thinking through interactive gameplay."
+        },
+        {
+          "question": "Can I play this on any device?",
+          "answer": "Absolutely! This game works on computers, tablets, and smartphones with internet access."
+        },
+        {
+          "question": "What age group is this suitable for?",
+          "answer": "This game is designed for all ages, from children learning basic concepts to adults exploring creative programming."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1206938023_282x210.png",
+      "tags": ["scratch", "educational", "interactive", "programming", "creative", "community"],
+      "publishedAt": "2025-01-18T11:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-2",
+      "title": "Scratch Adventure Game 2",
+      "slug": "scratch-game-2",
+      "category": "action",
+      "gameUrl": "https://scratch.mit.edu/projects/1209989820/embed",
+      "description": "Embark on an exciting adventure in this Scratch community creation! This action-packed game features dynamic gameplay, engaging storylines, and interactive elements that keep you entertained for hours.",
+      "howToPlay": "Navigate through the game world using your mouse or keyboard. Complete objectives, collect items, and overcome challenges as you progress through different levels and scenarios.",
+      "features": [
+        "Dynamic adventure gameplay",
+        "Engaging storyline and characters",
+        "Multiple levels and challenges",
+        "Interactive item collection",
+        "Community-created content",
+        "Responsive controls"
+      ],
+      "faqs": [
+        {
+          "question": "What type of game is this?",
+          "answer": "This is an adventure game with action elements, featuring exploration, puzzle-solving, and interactive gameplay."
+        },
+        {
+          "question": "How long does it take to complete?",
+          "answer": "Game length varies, but expect several hours of engaging gameplay with multiple levels and challenges."
+        },
+        {
+          "question": "Are there any special controls?",
+          "answer": "The game uses standard mouse and keyboard controls, with specific instructions provided in-game."
+        },
+        {
+          "question": "Can I replay the game?",
+          "answer": "Yes! You can replay levels and explore different paths to discover all the game's secrets."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1209989820_282x210.png",
+      "tags": ["scratch", "adventure", "action", "exploration", "community", "interactive"],
+      "publishedAt": "2025-01-18T12:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-3",
+      "title": "Scratch Puzzle Game 3",
+      "slug": "scratch-game-3",
+      "category": "thinking",
+      "gameUrl": "https://scratch.mit.edu/projects/1198055310/embed",
+      "description": "Challenge your mind with this innovative puzzle game from the Scratch community! This brain-teasing game combines logic, strategy, and creativity to create an engaging puzzle-solving experience.",
+      "howToPlay": "Analyze the puzzle elements and use logical thinking to solve challenges. Drag and drop pieces, follow patterns, and use strategic planning to complete each level successfully.",
+      "features": [
+        "Brain-teasing puzzle mechanics",
+        "Logical thinking challenges",
+        "Progressive difficulty system",
+        "Creative problem-solving",
+        "Visual puzzle elements",
+        "Community-designed content"
+      ],
+      "faqs": [
+        {
+          "question": "What skills does this game develop?",
+          "answer": "This game helps develop logical thinking, pattern recognition, strategic planning, and problem-solving skills."
+        },
+        {
+          "question": "Is this game suitable for beginners?",
+          "answer": "Yes! The game starts with simple puzzles and gradually increases in difficulty, making it accessible for all skill levels."
+        },
+        {
+          "question": "How do I solve difficult puzzles?",
+          "answer": "Take your time to analyze the puzzle, look for patterns, and try different approaches. Sometimes stepping back helps you see the solution."
+        },
+        {
+          "question": "Are there hints available?",
+          "answer": "The game provides visual cues and progressive difficulty to guide you through the puzzles naturally."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1198055310_282x210.png",
+      "tags": ["scratch", "puzzle", "thinking", "logic", "strategy", "brain-training"],
+      "publishedAt": "2025-01-18T13:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-4",
+      "title": "Scratch Creative Studio 4",
+      "slug": "scratch-game-4",
+      "category": "educational",
+      "gameUrl": "https://scratch.mit.edu/projects/1213760743/embed",
+      "description": "Unleash your creativity in this innovative Scratch creation! This interactive studio game allows you to explore, create, and experiment with various tools and elements in a fun, educational environment.",
+      "howToPlay": "Use the creative tools and elements provided to build, design, and experiment. Click on different objects, combine elements, and explore the interactive features to create your own unique experiences.",
+      "features": [
+        "Creative studio environment",
+        "Interactive design tools",
+        "Experimental gameplay",
+        "Educational content",
+        "Community collaboration",
+        "Open-ended creativity"
+      ],
+      "faqs": [
+        {
+          "question": "What can I create in this game?",
+          "answer": "You can experiment with various creative tools, design elements, and interactive features to create your own unique projects."
+        },
+        {
+          "question": "Is this game educational?",
+          "answer": "Yes! This game teaches creative thinking, design principles, and interactive programming concepts in a fun way."
+        },
+        {
+          "question": "Do I need any prior experience?",
+          "answer": "No experience needed! The game is designed to be intuitive and accessible for beginners while offering depth for more experienced users."
+        },
+        {
+          "question": "Can I save my creations?",
+          "answer": "While you can't save permanently in this version, you can experiment and explore different creative possibilities during your session."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1213760743_282x210.png",
+      "tags": ["scratch", "creative", "studio", "design", "educational", "experimental"],
+      "publishedAt": "2025-01-18T14:00:00Z",
+      "featured": true
     }
   ],
   "categories": [
