@@ -13,8 +13,10 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   // Check if the URL is from sites that might have iframe restrictions
   const isY8Game = gameUrl.includes('y8.com')
   const isCoolMathGame = gameUrl.includes('coolmathgames.com')
+  const isScratchGame = gameUrl.includes('scratch.mit.edu')
   
   // For Y8.com and CoolMathGames.com, immediately show fallback
+  // Scratch games can be embedded directly
   const shouldShowFallback = isY8Game || isCoolMathGame
   
   const [showIframe, setShowIframe] = useState(!shouldShowFallback)
@@ -22,7 +24,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   const [isLoading, setIsLoading] = useState(!shouldShowFallback)
 
   // Debug logging
-  console.log('GameDisplay:', { gameUrl, isY8Game, isCoolMathGame, showIframe, iframeError, shouldShowFallback })
+  console.log('GameDisplay:', { gameUrl, isY8Game, isCoolMathGame, isScratchGame, showIframe, iframeError, shouldShowFallback })
 
   // Handle iframe load error
   const handleIframeError = () => {
@@ -59,7 +61,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
 
       return () => clearTimeout(timer)
     }
-  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame])
+  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame, isScratchGame])
 
   // Try to load iframe first, show fallback if it fails
   if (showIframe && !iframeError) {
@@ -80,7 +82,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
           title={title}
           onError={handleIframeError}
           onLoad={handleIframeLoad}
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
+          sandbox={isScratchGame ? "allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation" : "allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"}
         />
       </div>
     )

@@ -44,7 +44,7 @@ export const metadata = {
         alt: 'Love Game Click - Ultimate Gaming Hub',
       },
     ],
-  },
+  },            
   twitter: {
     card: 'summary_large_image',
     title: 'Love Game Click - Ultimate Gaming Hub',
