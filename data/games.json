@@ -383,51 +383,141 @@
       "featured": true
     },
     {
-      "id": "rooftop-run",
-      "title": "Rooftop Run",
-      "slug": "rooftop-run",
-      "category": "action",
-      "gameUrl": "https://zh.y8.com/games/rooftop_run",
-      "description": "Experience the ultimate rooftop adventure in Rooftop Run! Jump, slide, and dash across dangerous rooftops while avoiding obstacles and collecting coins. This fast-paced action game tests your reflexes and timing skills as you navigate through the urban jungle.",
-      "howToPlay": "Use your mouse or touch controls to make your character jump, slide, and run across rooftops. Time your jumps perfectly to avoid obstacles and gaps. Collect coins and power-ups to boost your score. The goal is to run as far as possible without falling off the buildings.",
+      "id": "2048-classic",
+      "title": "2048",
+      "slug": "2048",
+      "category": "thinking",
+      "gameUrl": "https://gabrielecirulli.github.io/2048/",
+      "description": "Slide numbered tiles to combine them and reach 2048. A minimalist yet addictive number puzzle.",
+      "howToPlay": "Use arrow keys or swipe to move tiles. When two tiles with the same number touch, they merge into one. Plan ahead to avoid running out of moves.",
       "features": [
-        "Fast-paced rooftop running action",
-        "Smooth jump and slide mechanics",
-        "Dynamic obstacle courses",
-        "Coin collection system",
-        "Power-up boosts",
+        "Simple but deep puzzle mechanics",
+        "Keyboard and touch controls",
         "High score tracking",
-        "Mobile-friendly touch controls"
+        "Undo support in some versions"
       ],
       "faqs": [
-        {
-          "question": "How do I control my character in Rooftop Run?",
-          "answer": "Use your mouse to click or touch the screen to make your character jump. Hold down to slide under obstacles. Timing is crucial for success!"
-        },
-        {
-          "question": "What happens if I fall off the rooftop?",
-          "answer": "If you fall off the rooftop, the game ends and your score is recorded. Try to beat your previous high score on your next run!"
-        },
-        {
-          "question": "How do I get a high score?",
-          "answer": "Run as far as possible, collect coins, and avoid obstacles. The longer you survive, the higher your score will be. Power-ups can also boost your score multiplier."
-        },
-        {
-          "question": "Is Rooftop Run free to play?",
-          "answer": "Yes! Rooftop Run is completely free to play online. No downloads or registration required."
-        },
-        {
-          "question": "Can I play Rooftop Run on mobile devices?",
-          "answer": "Absolutely! Rooftop Run is optimized for both desktop and mobile devices with responsive touch controls."
-        },
-        {
-          "question": "Are there any tips for playing Rooftop Run?",
-          "answer": "Yes! Practice your timing, learn the obstacle patterns, and don't rush your jumps. Take your time to collect coins and power-ups when it's safe to do so."
-        }
+        {"question": "How do I move tiles?", "answer": "Use arrow keys on desktop or swipe on mobile."},
+        {"question": "What is the goal?", "answer": "Create a 2048 tile by merging numbers of the same value."}
       ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/5495/file/w180h135_webp-3599d5e00948dd48c55262fa7d553905.webp",
-      "tags": ["rooftop", "run", "action", "adventure", "jump", "skill"],
-      "publishedAt": "2025-01-17T17:00:00Z",
+      "thumbnail": "https://raw.githubusercontent.com/gabrielecirulli/2048/master/meta/og_image.png",
+      "tags": ["2048", "puzzle", "numbers", "thinking"],
+      "publishedAt": "2025-01-18T00:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "hextris",
+      "title": "Hextris",
+      "slug": "hextris",
+      "category": "arcade",
+      "gameUrl": "https://hextris.github.io/hextris/",
+      "description": "Fast-paced puzzle game inspired by Tetris on a hexagonal board. Rotate the hexagon and match colors.",
+      "howToPlay": "Use left/right arrow keys or A/D to rotate the hexagon. Stack matching colors to clear lines and score points.",
+      "features": [
+        "Hexagonal twist on classic Tetris",
+        "Speed increases over time",
+        "Keyboard controls",
+        "Minimalist visuals"
+      ],
+      "faqs": [
+        {"question": "How do I rotate?", "answer": "Press left/right arrows or A/D to rotate the hexagon."},
+        {"question": "How do I score?", "answer": "Align and clear matching color segments to gain points."}
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/Hextris/hextris/gh-pages/assets/img/og-image.png",
+      "tags": ["tetris", "hexagon", "arcade", "fast"],
+      "publishedAt": "2025-01-18T00:05:00Z",
+      "featured": true
+    },
+    {
+      "id": "trex-runner",
+      "title": "T‑Rex Runner",
+      "slug": "t-rex-runner",
+      "category": "arcade",
+      "gameUrl": "https://wayou.github.io/t-rex-runner/",
+      "description": "The classic Chrome offline dinosaur runner. Jump over cacti and dodge obstacles to survive longer.",
+      "howToPlay": "Press Space/Up to jump, Down to duck. Avoid obstacles and keep running to increase your score.",
+      "features": [
+        "Endless runner gameplay",
+        "Simple controls",
+        "Increasing difficulty",
+        "Retro aesthetics"
+      ],
+      "faqs": [
+        {"question": "How to jump?", "answer": "Press Space or Up arrow."},
+        {"question": "Is it mobile friendly?", "answer": "Yes, most browsers support touch to jump."}
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/wayou/t-rex-runner/gh-pages/assets/200-offline-sprite.png",
+      "tags": ["runner", "dinosaur", "arcade", "endless"],
+      "publishedAt": "2025-01-18T00:10:00Z",
+      "featured": true
+    },
+    {
+      "id": "clumsy-bird",
+      "title": "Clumsy Bird",
+      "slug": "clumsy-bird",
+      "category": "arcade",
+      "gameUrl": "https://ellisonleao.github.io/clumsy-bird/",
+      "description": "A Flappy Bird–style game. Tap to flap and navigate through gaps between pipes.",
+      "howToPlay": "Click or tap to flap. Time your taps to pass between obstacles and avoid crashing.",
+      "features": [
+        "One‑tap controls",
+        "Endless challenge",
+        "Cartoon visuals",
+        "High score"
+      ],
+      "faqs": [
+        {"question": "How do I control the bird?", "answer": "Click or tap the screen to flap upward."},
+        {"question": "Why did I fail instantly?", "answer": "Hitting pipes or ground ends the run. Practice timing your taps."}
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/ellisonleao/clumsy-bird/gh-pages/data/img/logo.png",
+      "tags": ["flappy", "bird", "arcade", "endless"],
+      "publishedAt": "2025-01-18T00:15:00Z",
+      "featured": true
+    },
+    {
+      "id": "react-tetris",
+      "title": "React Tetris",
+      "slug": "react-tetris",
+      "category": "thinking",
+      "gameUrl": "https://chvin.github.io/react-tetris/",
+      "description": "Modern web Tetris built with React. Arrange tetrominoes to clear lines and score.",
+      "howToPlay": "Use arrow keys to move and rotate blocks. Drop blocks to complete horizontal lines and clear them.",
+      "features": [
+        "Classic Tetris gameplay",
+        "Keyboard controls",
+        "React implementation",
+        "Smooth animations"
+      ],
+      "faqs": [
+        {"question": "How to rotate?", "answer": "Use Up arrow to rotate. Left/Right to move, Down to soft‑drop."},
+        {"question": "Can I play on mobile?", "answer": "Works in mobile browsers with on‑screen or external keyboard controls."}
+      ],
+      "thumbnail": "https://raw.githubusercontent.com/chvin/react-tetris/master/screenshot.gif",
+      "tags": ["tetris", "puzzle", "react", "thinking"],
+      "publishedAt": "2025-01-18T00:20:00Z",
+      "featured": true
+    },
+    {
+      "id": "pacman-classic",
+      "title": "Pac‑Man",
+      "slug": "pacman",
+      "category": "arcade",
+      "gameUrl": "https://pruskyandrew.github.io/pacman/",
+      "description": "The classic maze chase. Eat all pellets while avoiding ghosts.",
+      "howToPlay": "Use arrow keys to move. Collect pellets and power pellets to turn the tables on ghosts for a short time.",
+      "features": [
+        "Classic arcade gameplay",
+        "Keyboard controls",
+        "Multiple levels",
+        "Retro visuals and sounds"
+      ],
+      "faqs": [
+        {"question": "How do I score more?", "answer": "Eat all pellets and fruit bonuses, use power pellets strategically."},
+        {"question": "Is it mobile friendly?", "answer": "Playable in mobile browsers with on‑screen or swipe controls depending on device."}
+      ],
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pacman.svg",
+      "tags": ["pacman", "arcade", "classic", "maze"],
+      "publishedAt": "2025-01-18T00:25:00Z",
       "featured": true
     }
   ],
