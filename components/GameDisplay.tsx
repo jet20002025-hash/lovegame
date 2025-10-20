@@ -13,16 +13,28 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   // Check if the URL is from sites that might have iframe restrictions
   const isY8Game = gameUrl.includes('y8.com')
   const isCoolMathGame = gameUrl.includes('coolmathgames.com')
+  const isScratchGame = gameUrl.includes('scratch.mit.edu')
   
-  // For Y8.com and CoolMathGames.com, immediately show fallback
-  const shouldShowFallback = isY8Game || isCoolMathGame
+  // Try to embed all games first, show fallback only if iframe fails
+  // This allows us to test which games can actually be embedded
+  const shouldShowFallback = false
   
-  const [showIframe, setShowIframe] = useState(!shouldShowFallback)
-  const [iframeError, setIframeError] = useState(shouldShowFallback)
-  const [isLoading, setIsLoading] = useState(!shouldShowFallback)
+  const [showIframe, setShowIframe] = useState(true)
+  const [iframeError, setIframeError] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   // Debug logging
-  console.log('GameDisplay:', { gameUrl, isY8Game, isCoolMathGame, showIframe, iframeError, shouldShowFallback })
+  console.log('GameDisplay:', { 
+    gameUrl, 
+    isY8Game, 
+    isCoolMathGame, 
+    isScratchGame, 
+    showIframe, 
+    iframeError, 
+    shouldShowFallback,
+    isLoading,
+    timeoutDuration: 10000 // All games get 10 seconds
+  })
 
   // Handle iframe load error
   const handleIframeError = () => {
@@ -34,7 +46,7 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
 
   // Handle iframe load success
   const handleIframeLoad = () => {
-    console.log('Iframe loaded successfully')
+    console.log('Iframe loaded successfully for:', gameUrl)
     setIsLoading(false)
   }
 
@@ -49,17 +61,20 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
   // Add effect to handle X-Frame-Options errors
   useEffect(() => {
     if (showIframe && !iframeError) {
+      // Give all games 10 seconds to load - this provides better UX for slower networks
+      const timeoutDuration = 10000 // 10 seconds for all games
+      
       const timer = setTimeout(() => {
-        // If iframe hasn't loaded after 3 seconds, assume it's blocked
+        // If iframe hasn't loaded after timeout, assume it's blocked
         if (isLoading) {
-          console.log('Iframe timeout, assuming X-Frame-Options block')
+          console.log(`Iframe timeout after ${timeoutDuration}ms for ${gameUrl}, assuming X-Frame-Options block`)
           handleIframeSecurityError()
         }
-      }, 3000)
+      }, timeoutDuration)
 
       return () => clearTimeout(timer)
     }
-  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame])
+  }, [showIframe, iframeError, isLoading, isY8Game, isCoolMathGame, isScratchGame, gameUrl])
 
   // Try to load iframe first, show fallback if it fails
   if (showIframe && !iframeError) {
@@ -80,7 +95,8 @@ export default function GameDisplay({ gameUrl, title, className }: GameDisplayPr
           title={title}
           onError={handleIframeError}
           onLoad={handleIframeLoad}
-          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox"
+          sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-presentation"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
         />
       </div>
     )

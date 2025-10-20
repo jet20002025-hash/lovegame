@@ -3,6 +3,7 @@ import { getGameBySlug, getGamesData } from '@/lib/games'
 import { Play, Star, Clock, Users, ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import GameDisplay from '@/components/GameDisplay'
+import FullscreenButton from '@/components/FullscreenButton'
 
 interface GamePageProps {
   params: {
@@ -111,11 +112,17 @@ export default async function GamePage({ params }: GamePageProps) {
 
             {/* Game Display */}
             <div className="card mb-8">
-              <GameDisplay
-                gameUrl={game.gameUrl}
-                title={game.title}
-                className="rounded-t-xl"
-              />
+              <div className="relative">
+                <GameDisplay
+                  gameUrl={game.gameUrl}
+                  title={game.title}
+                  className="rounded-t-xl"
+                />
+                {/* Fullscreen Button */}
+                <div className="absolute top-4 right-4">
+                  <FullscreenButton className="bg-black bg-opacity-50 hover:bg-opacity-70 text-white p-2 rounded-lg transition-all duration-200 hover:scale-105" />
+                </div>
+              </div>
               <div className="p-6">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center space-x-4 text-sm text-gray-500">

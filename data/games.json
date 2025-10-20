@@ -1,80 +1,6 @@
 {
   "games": [
     {
-      "id": "puzzle-master",
-      "title": "Puzzle Master",
-      "slug": "puzzle-master",
-      "category": "thinking",
-      "gameUrl": "https://www.coolmathgames.com/0-puzzle-master",
-      "description": "Challenge your mind with Puzzle Master, an engaging brain-teasing game that combines logic, strategy, and creativity. Solve increasingly complex puzzles and unlock new levels as you progress through this addictive puzzle adventure.",
-      "howToPlay": "Use your mouse or touch to interact with puzzle pieces. Drag and drop elements to solve the puzzle. Each level has a specific objective - complete it to advance. Look for patterns and think strategically to find the solution.",
-      "features": [
-        "100+ challenging puzzle levels",
-        "Multiple puzzle types and mechanics",
-        "Progressive difficulty system",
-        "Hint system for difficult puzzles",
-        "Achievement system",
-        "Mobile-friendly touch controls"
-      ],
-      "faqs": [
-        {
-          "question": "How do I start playing Puzzle Master?",
-          "answer": "Simply click the 'Play Now' button and the game will load in your browser. No downloads or installations required!"
-        },
-        {
-          "question": "Is Puzzle Master free to play?",
-          "answer": "Yes! Puzzle Master is completely free to play. You can enjoy all levels without any cost."
-        },
-        {
-          "question": "Can I play on mobile devices?",
-          "answer": "Absolutely! Puzzle Master is optimized for both desktop and mobile devices. Touch controls work seamlessly on smartphones and tablets."
-        },
-        {
-          "question": "What if I get stuck on a puzzle?",
-          "answer": "Don't worry! The game includes a hint system that can help you when you're stuck. You can also take a break and come back later with fresh eyes."
-        }
-      ],
-      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/puzzle-master.jpg",
-      "tags": ["puzzle", "brain", "casual", "strategy"],
-      "publishedAt": "2024-01-15T10:00:00Z",
-      "featured": true
-    },
-    {
-      "id": "space-adventure",
-      "title": "Space Adventure",
-      "slug": "space-adventure",
-      "category": "action",
-      "gameUrl": "https://www.coolmathgames.com/0-space-adventure",
-      "description": "Embark on an epic space journey in this thrilling action game. Navigate through asteroid fields, battle alien enemies, and explore distant galaxies in this fast-paced space adventure.",
-      "howToPlay": "Use arrow keys or WASD to move your spaceship. Press spacebar to shoot lasers at enemies. Collect power-ups to enhance your ship's abilities. Avoid asteroids and enemy fire to survive as long as possible.",
-      "features": [
-        "Multiple spaceship upgrades",
-        "Dynamic enemy AI",
-        "Power-up collection system",
-        "High score leaderboard",
-        "Multiple difficulty levels",
-        "Stunning space graphics"
-      ],
-      "faqs": [
-        {
-          "question": "What controls do I use for Space Adventure?",
-          "answer": "Use arrow keys or WASD to move your spaceship, and press spacebar to shoot. You can also use mouse controls for aiming."
-        },
-        {
-          "question": "How do I get a high score?",
-          "answer": "Destroy enemies, collect power-ups, and survive as long as possible. Each enemy destroyed gives you points, and power-ups provide bonus multipliers."
-        },
-        {
-          "question": "Can I upgrade my spaceship?",
-          "answer": "Yes! Collect coins and power-ups to upgrade your ship's weapons, shields, and speed. Upgrades persist between games."
-        }
-      ],
-      "thumbnail": "https://www.coolmathgames.com/sites/default/files/games/space-adventure.jpg",
-      "tags": ["action", "space", "shooter", "arcade"],
-      "publishedAt": "2024-01-10T15:30:00Z",
-      "featured": true
-    },
-    {
       "id": "word-challenge",
       "title": "Word Challenge",
       "slug": "word-challenge",
@@ -110,276 +36,159 @@
       "featured": false
     },
     {
-      "id": "scoobydoo-adventures-episode-4",
-      "title": "Scoobydoo Adventures Episode 4",
-      "slug": "scoobydoo-adventures-episode-4",
-      "category": "action",
-      "gameUrl": "https://zh.y8.com/games/scoobydoo_adventures_episode_4",
-      "description": "Join Scooby-Doo and the Mystery Inc. gang in their latest adventure! Help them solve mysteries, collect clues, and uncover the truth behind the supernatural events in this exciting episode.",
-      "howToPlay": "Use your mouse to interact with the game. Click on objects to investigate, collect items, and solve puzzles. Follow the story and help Scooby-Doo and his friends solve the mystery.",
+      "id": "scratch-creative-game",
+      "title": "Scratch Creative Game",
+      "slug": "scratch-creative-game",
+      "category": "educational",
+      "gameUrl": "https://scratch.mit.edu/projects/1218786621/embed",
+      "description": "Experience this wonderful game created by the Scratch community! This is an interactive game full of creativity and imagination, suitable for players of all ages. Enjoy the fun brought by the game through simple operations and interesting game mechanics.",
+      "howToPlay": "Use your mouse to click and drag to interact with the game. Follow the in-game instructions to operate and explore different game elements and functions. Each Scratch game has its unique gameplay and objectives.",
       "features": [
-        "Interactive mystery solving",
-        "Character-based gameplay",
-        "Multiple investigation areas",
-        "Clue collection system",
-        "Story-driven adventure",
-        "Classic Scooby-Doo characters"
+        "Community-created creative game",
+        "Simple and easy-to-learn controls",
+        "Suitable for all ages",
+        "Imaginative game content",
+        "Educational and entertaining",
+        "Full-screen gaming experience"
       ],
       "faqs": [
         {
           "question": "How do I start playing?",
-          "answer": "Simply click on the game and it will load in your browser. No downloads required!"
+          "answer": "The game will load automatically, and you can start playing directly on the page. Use your mouse to interact with game elements."
         },
         {
           "question": "Is this game free?",
-          "answer": "Yes, this game is completely free to play on our platform."
+          "answer": "Yes! This is a completely free game created and shared by the Scratch community."
         },
         {
-          "question": "Can I play on mobile?",
-          "answer": "Yes, the game is mobile-friendly and can be played on smartphones and tablets."
+          "question": "Can I play on mobile devices?",
+          "answer": "Yes! The game supports mobile devices, and you can enjoy the game on your phone or tablet."
+        },
+        {
+          "question": "What are the features of this game?",
+          "answer": "This is a creative game on the Scratch platform, usually containing educational elements and interactivity, perfect for learning and entertainment."
         }
       ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/143215/file/w180h135_webp-f7b4437350a782249aab3247223be09b.webp",
-      "tags": ["adventure", "mystery", "scooby-doo", "action", "puzzle"],
-      "publishedAt": "2025-01-16T00:00:00.000Z",
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1218786621_282x210.png",
+      "tags": ["scratch", "educational", "creative", "interactive", "community", "new"],
+      "publishedAt": "2025-01-18T10:00:00Z",
       "featured": true
     },
     {
-      "id": "brainrot-evolution",
-      "title": "Brainrot Evolution",
-      "slug": "brainrot-evolution",
+      "id": "scratch-game-1",
+      "title": "Scratch Interactive Game 1",
+      "slug": "scratch-game-1",
       "category": "educational",
-      "gameUrl": "https://zh.y8.com/games/brainrot_evolution",
-      "description": "Challenge your brain with Brainrot Evolution! This educational game tests your cognitive abilities, memory, and problem-solving skills through engaging puzzles and brain-training exercises.",
-      "howToPlay": "Use your mouse to interact with the game elements. Follow the instructions to complete various brain-training challenges. The game will test your memory, logic, and cognitive abilities through different levels.",
+      "gameUrl": "https://scratch.mit.edu/projects/1206938023/embed",
+      "description": "Discover this amazing interactive game created by the Scratch community! This educational game combines fun and learning, featuring engaging gameplay mechanics that challenge your creativity and problem-solving skills.",
+      "howToPlay": "Use your mouse to interact with the game elements. Click and drag objects, follow the instructions, and explore the interactive features. Each level presents new challenges and learning opportunities.",
       "features": [
-        "Brain-training exercises",
-        "Memory improvement challenges",
-        "Cognitive skill development",
+        "Interactive educational gameplay",
+        "Creative problem-solving challenges",
+        "Community-driven content",
         "Progressive difficulty levels",
-        "Educational content",
-        "Mind-stimulating puzzles"
+        "Visual programming concepts",
+        "Cross-platform compatibility"
       ],
       "faqs": [
         {
-          "question": "What is Brainrot Evolution?",
-          "answer": "It's an educational brain-training game designed to improve your cognitive abilities, memory, and problem-solving skills."
+          "question": "How do I control the game?",
+          "answer": "Use your mouse to click and interact with game elements. Follow the on-screen instructions for specific controls."
         },
         {
-          "question": "Is this game suitable for all ages?",
-          "answer": "Yes, Brainrot Evolution is designed to be educational and suitable for players of all ages who want to improve their mental abilities."
+          "question": "Is this game educational?",
+          "answer": "Yes! This game teaches programming concepts and logical thinking through interactive gameplay."
         },
         {
-          "question": "How does it help with brain training?",
-          "answer": "The game includes various puzzles and challenges that exercise different parts of your brain, helping improve memory, logic, and cognitive function."
+          "question": "Can I play this on any device?",
+          "answer": "Absolutely! This game works on computers, tablets, and smartphones with internet access."
+        },
+        {
+          "question": "What age group is this suitable for?",
+          "answer": "This game is designed for all ages, from children learning basic concepts to adults exploring creative programming."
         }
       ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/383851/file/w180h135_webp-7f234eecaf01a46fc647705a4918be37.webp",
-      "tags": ["educational", "brain-training", "puzzle", "memory", "cognitive", "learning"],
-      "publishedAt": "2025-01-16T01:00:00.000Z",
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1206938023_282x210.png",
+      "tags": ["scratch", "educational", "interactive", "programming", "creative", "community"],
+      "publishedAt": "2025-01-18T11:00:00Z",
       "featured": true
     },
     {
-      "id": "tung-tung-sahur-burning-desire",
-      "title": "Tung Tung Sahur Burning Desire",
-      "slug": "tung-tung-sahur-burning-desire",
+      "id": "scratch-game-2",
+      "title": "Scratch Adventure Game 2",
+      "slug": "scratch-game-2",
       "category": "action",
-      "gameUrl": "https://zh.y8.com/games/tung_tung_sahur_burning_desire",
-      "description": "Join Tung Tung Sahur in an exciting action adventure filled with burning desire and thrilling challenges. Navigate through dangerous environments and overcome obstacles in this fast-paced game.",
-      "howToPlay": "Use arrow keys or WASD to move your character. Follow the on-screen instructions to complete objectives and progress through levels. Avoid obstacles and enemies while collecting items.",
+      "gameUrl": "https://scratch.mit.edu/projects/1209989820/embed",
+      "description": "Embark on an exciting adventure in this Scratch community creation! This action-packed game features dynamic gameplay, engaging storylines, and interactive elements that keep you entertained for hours.",
+      "howToPlay": "Navigate through the game world using your mouse or keyboard. Complete objectives, collect items, and overcome challenges as you progress through different levels and scenarios.",
       "features": [
-        "Exciting action gameplay",
-        "Engaging storyline",
-        "Multiple levels to complete",
-        "Challenging obstacles",
-        "Beautiful graphics",
-        "Addictive gameplay"
+        "Dynamic adventure gameplay",
+        "Engaging storyline and characters",
+        "Multiple levels and challenges",
+        "Interactive item collection",
+        "Community-created content",
+        "Responsive controls"
       ],
       "faqs": [
         {
-          "question": "How do I control the character?",
-          "answer": "Use arrow keys or WASD keys to move your character around the game world."
+          "question": "What type of game is this?",
+          "answer": "This is an adventure game with action elements, featuring exploration, puzzle-solving, and interactive gameplay."
         },
         {
-          "question": "Is this game free to play?",
-          "answer": "Yes! Tung Tung Sahur Burning Desire is completely free to play online."
+          "question": "How long does it take to complete?",
+          "answer": "Game length varies, but expect several hours of engaging gameplay with multiple levels and challenges."
         },
         {
-          "question": "Can I play on mobile devices?",
-          "answer": "Yes, the game is optimized for both desktop and mobile devices."
+          "question": "Are there any special controls?",
+          "answer": "The game uses standard mouse and keyboard controls, with specific instructions provided in-game."
+        },
+        {
+          "question": "Can I replay the game?",
+          "answer": "Yes! You can replay levels and explore different paths to discover all the game's secrets."
         }
       ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/189759/file/w180h135_webp-ff09a512471cc2b6d11e58dade115038.webp",
-      "tags": ["action", "adventure", "new"],
-      "publishedAt": "2024-09-17T06:21:00Z",
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1209989820_282x210.png",
+      "tags": ["scratch", "adventure", "action", "exploration", "community", "interactive"],
+      "publishedAt": "2025-01-18T12:00:00Z",
       "featured": true
     },
     {
-      "id": "hazmob-fps",
-      "title": "Hazmob FPS",
-      "slug": "hazmob-fps",
-      "category": "shooting",
-      "gameUrl": "https://zh.y8.com/games/hazmob_fps",
-      "description": "Experience intense first-person shooter action in Hazmob FPS! Engage in fast-paced combat, eliminate enemies, and survive in this thrilling shooting game with realistic graphics and smooth gameplay.",
-      "howToPlay": "Use WASD or arrow keys to move your character. Use your mouse to aim and shoot. Press R to reload your weapon. Collect ammo and health packs to survive longer. Complete objectives and eliminate all enemies to win.",
-      "features": [
-        "Realistic FPS gameplay",
-        "Multiple weapons to choose from",
-        "Intense combat scenarios",
-        "Smooth controls and movement",
-        "High-quality graphics",
-        "Challenging enemy AI"
-      ],
-      "faqs": [
-        {
-          "question": "What controls do I use for Hazmob FPS?",
-          "answer": "Use WASD or arrow keys to move, mouse to aim and shoot, and R key to reload your weapon."
-        },
-        {
-          "question": "Is this game suitable for all ages?",
-          "answer": "This is a shooting game with combat elements, so it's recommended for older players who enjoy action games."
-        },
-        {
-          "question": "Can I play on mobile devices?",
-          "answer": "Yes, Hazmob FPS is optimized for both desktop and mobile devices with touch controls."
-        },
-        {
-          "question": "How do I get better at the game?",
-          "answer": "Practice your aim, learn the maps, and master the different weapons. Each weapon has different characteristics and uses."
-        }
-      ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/889/file/w180h135_webp-ff7be474be5629fb3a63c568134935c3.webp",
-      "tags": ["fps", "shooting", "action", "combat", "new"],
-      "publishedAt": "2025-01-17T12:00:00Z",
-      "featured": true
-    },
-    {
-      "id": "home-design-decorate-house",
-      "title": "Home Design: Decorate House",
-      "slug": "home-design-decorate-house",
-      "category": "girls",
-      "gameUrl": "https://zh.y8.com/games/home_design_decorate_house",
-      "description": "Unleash your creativity with Home Design: Decorate House! Design and decorate beautiful homes with your own unique style. Choose from hundreds of furniture pieces, colors, and decorations to create the perfect living space.",
-      "howToPlay": "Use your mouse to interact with the game. Click and drag furniture items to place them in the house. Select different rooms to decorate and choose from various furniture categories. Mix and match colors and styles to create your dream home.",
-      "features": [
-        "Extensive furniture collection",
-        "Multiple room types to decorate",
-        "Color customization options",
-        "Creative design tools",
-        "Beautiful graphics and animations",
-        "Unlimited design possibilities"
-      ],
-      "faqs": [
-        {
-          "question": "How do I start decorating my house?",
-          "answer": "Simply click on the game and it will load in your browser. Use your mouse to select furniture and drag them to place in different rooms."
-        },
-        {
-          "question": "Can I change the colors of furniture?",
-          "answer": "Yes! You can customize colors and styles of furniture pieces to match your design preferences."
-        },
-        {
-          "question": "Is this game suitable for all ages?",
-          "answer": "Absolutely! Home Design: Decorate House is a creative and relaxing game perfect for players of all ages who enjoy interior design."
-        },
-        {
-          "question": "Can I save my designs?",
-          "answer": "The game allows you to create and view your designs. You can always start over with a new design if you want to try different styles."
-        }
-      ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/383337/file/w180h135_webp-057b0d12a681aec7fed7e328f8cfc727.webp",
-      "tags": ["home-design", "decorate", "girls", "creative", "interior-design", "new"],
-      "publishedAt": "2025-01-17T14:00:00Z",
-      "featured": true
-    },
-    {
-      "id": "slope",
-      "title": "Slope",
-      "slug": "slope",
-      "category": "skill",
-      "gameUrl": "https://y8.com/embed/slope",
-      "description": "Experience the ultimate endless running game! Control a ball rolling down a never-ending slope, avoid obstacles, and try to achieve the highest score possible in this addictive and challenging game.",
-      "howToPlay": "Use your mouse or arrow keys to control the ball. Move left and right to avoid obstacles and stay on the slope. The ball will automatically roll forward - your job is to keep it on track and avoid falling off the edge.",
-      "features": [
-        "Endless gameplay with increasing difficulty",
-        "Smooth ball physics and controls",
-        "Colorful and vibrant graphics",
-        "High score tracking system",
-        "Addictive and challenging gameplay",
-        "Mobile-friendly touch controls"
-      ],
-      "faqs": [
-        {
-          "question": "How do I control the ball in Slope?",
-          "answer": "Use your mouse to move left and right, or use the arrow keys on your keyboard. The ball will automatically roll forward down the slope."
-        },
-        {
-          "question": "What happens if I fall off the slope?",
-          "answer": "If you fall off the slope, the game ends and your score is recorded. Try to beat your previous high score!"
-        },
-        {
-          "question": "Is Slope free to play?",
-          "answer": "Yes! Slope is completely free to play online. No downloads or registration required."
-        },
-        {
-          "question": "Can I play Slope on mobile devices?",
-          "answer": "Absolutely! Slope is optimized for both desktop and mobile devices with touch controls."
-        },
-        {
-          "question": "How do I get a high score?",
-          "answer": "Stay on the slope as long as possible, avoid obstacles, and maintain control of the ball. The longer you survive, the higher your score will be."
-        }
-      ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/143215/file/w180h135_webp-slope-game-thumbnail.webp",
-      "tags": ["skill", "endless", "running", "arcade", "challenging", "addictive"],
-      "publishedAt": "2025-01-17T15:00:00Z",
-      "featured": true
-    },
-    {
-      "id": "number-merge",
-      "title": "Number Merge",
-      "slug": "number-merge",
+      "id": "scratch-game-3",
+      "title": "Scratch Puzzle Game 3",
+      "slug": "scratch-game-3",
       "category": "thinking",
-      "gameUrl": "https://zh.y8.com/games/number_merge_html5",
-      "description": "Challenge your mathematical skills with Number Merge! Combine numbers strategically to create higher values and achieve the highest score possible. This addictive puzzle game tests your logic and planning abilities while providing endless entertainment.",
-      "howToPlay": "Use your mouse or touch to move number tiles around the board. Combine identical numbers to create higher values. Plan your moves carefully to maximize your score and avoid filling up the board. The goal is to create the highest possible numbers and achieve the best score.",
+      "gameUrl": "https://scratch.mit.edu/projects/1198055310/embed",
+      "description": "Challenge your mind with this innovative puzzle game from the Scratch community! This brain-teasing game combines logic, strategy, and creativity to create an engaging puzzle-solving experience.",
+      "howToPlay": "Analyze the puzzle elements and use logical thinking to solve challenges. Drag and drop pieces, follow patterns, and use strategic planning to complete each level successfully.",
       "features": [
-        "Strategic number combination gameplay",
-        "Progressive difficulty levels",
-        "High score tracking system",
-        "Smooth and intuitive controls",
-        "Addictive puzzle mechanics",
-        "Mobile-friendly touch interface"
+        "Brain-teasing puzzle mechanics",
+        "Logical thinking challenges",
+        "Progressive difficulty system",
+        "Creative problem-solving",
+        "Visual puzzle elements",
+        "Community-designed content"
       ],
       "faqs": [
         {
-          "question": "How do I combine numbers in Number Merge?",
-          "answer": "Move identical numbers next to each other to combine them into a higher value. For example, combining two '2' tiles creates a '4' tile."
+          "question": "What skills does this game develop?",
+          "answer": "This game helps develop logical thinking, pattern recognition, strategic planning, and problem-solving skills."
         },
         {
-          "question": "What happens when the board fills up?",
-          "answer": "When the board is full and you can't make any more moves, the game ends. Try to plan ahead and create space by combining numbers strategically."
+          "question": "Is this game suitable for beginners?",
+          "answer": "Yes! The game starts with simple puzzles and gradually increases in difficulty, making it accessible for all skill levels."
         },
         {
-          "question": "Is Number Merge free to play?",
-          "answer": "Yes! Number Merge is completely free to play online. No downloads or registration required."
+          "question": "How do I solve difficult puzzles?",
+          "answer": "Take your time to analyze the puzzle, look for patterns, and try different approaches. Sometimes stepping back helps you see the solution."
         },
         {
-          "question": "Can I play Number Merge on mobile devices?",
-          "answer": "Absolutely! Number Merge is optimized for both desktop and mobile devices with touch controls."
-        },
-        {
-          "question": "How do I get a high score?",
-          "answer": "Focus on creating the highest possible numbers by combining tiles strategically. Plan your moves carefully and try to keep the board as clear as possible."
-        },
-        {
-          "question": "Are there any tips for playing Number Merge?",
-          "answer": "Yes! Try to keep your highest numbers in corners, plan several moves ahead, and don't rush your decisions. Take your time to find the best combinations."
+          "question": "Are there hints available?",
+          "answer": "The game provides visual cues and progressive difficulty to guide you through the puzzles naturally."
         }
       ],
-      "thumbnail": "https://cdn2.y8.com/cloudimage/383947/file/w180h135_webp-03dfcee9cf08ade29f62a75a7df372bf.webp",
-      "tags": ["number", "merge", "puzzle", "math", "strategy", "thinking"],
-      "publishedAt": "2025-01-17T16:00:00Z",
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1198055310_282x210.png",
+      "tags": ["scratch", "puzzle", "thinking", "logic", "strategy", "brain-training"],
+      "publishedAt": "2025-01-18T13:00:00Z",
       "featured": true
     },
     {
@@ -518,6 +327,240 @@
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/5/59/Pacman.svg",
       "tags": ["pacman", "arcade", "classic", "maze"],
       "publishedAt": "2025-01-18T00:25:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-4",
+      "title": "Scratch Creative Studio 4",
+      "slug": "scratch-game-4",
+      "category": "educational",
+      "gameUrl": "https://scratch.mit.edu/projects/1213760743/embed",
+      "description": "Unleash your creativity in this innovative Scratch creation! This interactive studio game allows you to explore, create, and experiment with various tools and elements in a fun, educational environment.",
+      "howToPlay": "Use the creative tools and elements provided to build, design, and experiment. Click on different objects, combine elements, and explore the interactive features to create your own unique experiences.",
+      "features": [
+        "Creative studio environment",
+        "Interactive design tools",
+        "Experimental gameplay",
+        "Educational content",
+        "Community collaboration",
+        "Open-ended creativity"
+      ],
+      "faqs": [
+        {
+          "question": "What can I create in this game?",
+          "answer": "You can experiment with various creative tools, design elements, and interactive features to create your own unique projects."
+        },
+        {
+          "question": "Is this game educational?",
+          "answer": "Yes! This game teaches creative thinking, design principles, and interactive programming concepts in a fun way."
+        },
+        {
+          "question": "Do I need any prior experience?",
+          "answer": "No experience needed! The game is designed to be intuitive and accessible for beginners while offering depth for more experienced users."
+        },
+        {
+          "question": "Can I save my creations?",
+          "answer": "While you can't save permanently in this version, you can experiment and explore different creative possibilities during your session."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1213760743_282x210.png",
+      "tags": ["scratch", "creative", "studio", "design", "educational", "experimental"],
+      "publishedAt": "2025-01-18T14:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-5",
+      "title": "Scratch Interactive Adventure 5",
+      "slug": "scratch-game-5",
+      "category": "action",
+      "gameUrl": "https://scratch.mit.edu/projects/1215638864/embed",
+      "description": "Embark on an epic interactive adventure in this amazing Scratch creation! This action-packed game features dynamic gameplay, engaging storylines, and interactive elements that provide hours of entertainment.",
+      "howToPlay": "Navigate through the adventure world using your mouse or keyboard controls. Complete quests, solve puzzles, and interact with characters as you progress through the exciting storyline.",
+      "features": [
+        "Epic adventure storyline",
+        "Interactive character dialogue",
+        "Dynamic quest system",
+        "Puzzle-solving challenges",
+        "Community-created content",
+        "Immersive gameplay experience"
+      ],
+      "faqs": [
+        {
+          "question": "What type of adventure is this?",
+          "answer": "This is an interactive adventure game with action elements, featuring exploration, character interaction, and quest completion."
+        },
+        {
+          "question": "How do I progress in the game?",
+          "answer": "Complete quests, solve puzzles, and interact with characters to advance through the storyline and unlock new areas."
+        },
+        {
+          "question": "Are there multiple endings?",
+          "answer": "The game features branching storylines and multiple paths, allowing for different gameplay experiences and outcomes."
+        },
+        {
+          "question": "Can I replay the adventure?",
+          "answer": "Yes! You can replay the game to explore different choices and discover all the hidden secrets and alternative paths."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1215638864_282x210.png",
+      "tags": ["scratch", "adventure", "action", "interactive", "story", "quest"],
+      "publishedAt": "2025-01-18T15:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-6",
+      "title": "Scratch Creative Challenge 6",
+      "slug": "scratch-game-6",
+      "category": "skill",
+      "gameUrl": "https://scratch.mit.edu/projects/1217989084/embed",
+      "description": "Test your skills and reflexes in this challenging Scratch creation! This skill-based game combines precision, timing, and strategy to create an engaging and competitive gaming experience.",
+      "howToPlay": "Use precise timing and quick reflexes to overcome challenges. Master the controls, learn the patterns, and improve your skills as you progress through increasingly difficult levels.",
+      "features": [
+        "Skill-based gameplay mechanics",
+        "Precision timing challenges",
+        "Progressive difficulty system",
+        "Competitive scoring system",
+        "Reflex training elements",
+        "Community leaderboards"
+      ],
+      "faqs": [
+        {
+          "question": "What skills does this game test?",
+          "answer": "This game tests your reflexes, timing, precision, and strategic thinking through various challenging scenarios."
+        },
+        {
+          "question": "Is this game suitable for beginners?",
+          "answer": "The game starts with easier challenges and gradually increases in difficulty, making it accessible for players of all skill levels."
+        },
+        {
+          "question": "How do I improve my performance?",
+          "answer": "Practice regularly, learn the patterns, and focus on timing and precision. Each attempt helps you improve your skills."
+        },
+        {
+          "question": "Are there different game modes?",
+          "answer": "The game features multiple challenge modes and difficulty levels to keep the gameplay fresh and engaging."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1217989084_282x210.png",
+      "tags": ["scratch", "skill", "challenge", "reflex", "precision", "competitive"],
+      "publishedAt": "2025-01-18T16:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-7",
+      "title": "Scratch Puzzle Master 7",
+      "slug": "scratch-game-7",
+      "category": "thinking",
+      "gameUrl": "https://scratch.mit.edu/projects/1207672079/embed",
+      "description": "Challenge your mind with this innovative puzzle game from the Scratch community! This brain-teasing game combines logic, strategy, and creativity to create an engaging puzzle-solving experience.",
+      "howToPlay": "Analyze the puzzle elements and use logical thinking to solve challenges. Drag and drop pieces, follow patterns, and use strategic planning to complete each level successfully.",
+      "features": [
+        "Brain-teasing puzzle mechanics",
+        "Logical thinking challenges",
+        "Progressive difficulty system",
+        "Creative problem-solving",
+        "Visual puzzle elements",
+        "Community-designed content"
+      ],
+      "faqs": [
+        {
+          "question": "What skills does this game develop?",
+          "answer": "This game helps develop logical thinking, pattern recognition, strategic planning, and problem-solving skills."
+        },
+        {
+          "question": "Is this game suitable for beginners?",
+          "answer": "Yes! The game starts with simple puzzles and gradually increases in difficulty, making it accessible for all skill levels."
+        },
+        {
+          "question": "How do I solve difficult puzzles?",
+          "answer": "Take your time to analyze the puzzle, look for patterns, and try different approaches. Sometimes stepping back helps you see the solution."
+        },
+        {
+          "question": "Are there hints available?",
+          "answer": "The game provides visual cues and progressive difficulty to guide you through the puzzles naturally."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1207672079_282x210.png",
+      "tags": ["scratch", "puzzle", "thinking", "logic", "strategy", "brain-training"],
+      "publishedAt": "2025-01-18T17:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-8",
+      "title": "Scratch Fun Arcade 8",
+      "slug": "scratch-game-8",
+      "category": "arcade",
+      "gameUrl": "https://scratch.mit.edu/projects/1218989704/embed",
+      "description": "Enjoy classic arcade fun in this entertaining Scratch creation! This retro-style game brings back the excitement of traditional arcade gaming with modern interactive elements and engaging gameplay.",
+      "howToPlay": "Use classic arcade controls to navigate through the game. Collect points, avoid obstacles, and master the gameplay mechanics to achieve high scores and unlock new levels.",
+      "features": [
+        "Classic arcade gameplay",
+        "Retro-style graphics and sounds",
+        "High score system",
+        "Multiple game levels",
+        "Nostalgic gaming experience",
+        "Community-created content"
+      ],
+      "faqs": [
+        {
+          "question": "What makes this game arcade-style?",
+          "answer": "This game features classic arcade mechanics, retro graphics, and traditional scoring systems that evoke the golden age of arcade gaming."
+        },
+        {
+          "question": "How do I achieve high scores?",
+          "answer": "Master the controls, learn the patterns, and collect bonus items while avoiding obstacles to maximize your score."
+        },
+        {
+          "question": "Are there different levels?",
+          "answer": "Yes! The game features multiple levels with increasing difficulty and new challenges to keep the gameplay exciting."
+        },
+        {
+          "question": "Can I compete with others?",
+          "answer": "While there's no direct multiplayer, you can compare your scores with friends and try to beat the community high scores."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1218989704_282x210.png",
+      "tags": ["scratch", "arcade", "retro", "classic", "fun", "nostalgic"],
+      "publishedAt": "2025-01-18T18:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "scratch-game-9",
+      "title": "Scratch Creative World 9",
+      "slug": "scratch-game-9",
+      "category": "educational",
+      "gameUrl": "https://scratch.mit.edu/projects/1218981066/embed",
+      "description": "Explore a world of creativity and learning in this amazing Scratch creation! This educational game combines exploration, creativity, and interactive learning to create an engaging and informative experience.",
+      "howToPlay": "Explore the creative world by clicking and interacting with various elements. Discover new areas, learn new concepts, and experiment with different tools and features as you progress.",
+      "features": [
+        "Interactive learning environment",
+        "Creative exploration elements",
+        "Educational content integration",
+        "Progressive discovery system",
+        "Community collaboration features",
+        "Multi-sensory learning experience"
+      ],
+      "faqs": [
+        {
+          "question": "What can I learn from this game?",
+          "answer": "This game teaches creative thinking, problem-solving, and interactive programming concepts through hands-on exploration and experimentation."
+        },
+        {
+          "question": "Is this suitable for educational use?",
+          "answer": "Yes! This game is designed with educational principles in mind and can be used as a learning tool in various educational settings."
+        },
+        {
+          "question": "How do I explore the world?",
+          "answer": "Click on different elements, interact with objects, and follow the guided exploration paths to discover new areas and features."
+        },
+        {
+          "question": "Can I create my own content?",
+          "answer": "While you can't modify the core game, you can experiment with the interactive elements and discover creative possibilities within the game world."
+        }
+      ],
+      "thumbnail": "https://scratch.mit.edu/get_image/project/1218981066_282x210.png",
+      "tags": ["scratch", "educational", "creative", "exploration", "learning", "interactive"],
+      "publishedAt": "2025-01-18T19:00:00Z",
       "featured": true
     }
   ],
