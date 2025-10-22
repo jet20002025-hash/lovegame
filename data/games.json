@@ -36,6 +36,96 @@
       "featured": false
     },
     {
+      "id": "slope",
+      "title": "Slope",
+      "slug": "slope",
+      "category": "skill",
+      "gameUrl": "https://y8.com/embed/slope",
+      "description": "Experience the ultimate endless running game! Control a ball rolling down a never-ending slope, avoid obstacles, and try to achieve the highest score possible in this addictive and challenging game.",
+      "howToPlay": "Use your mouse or arrow keys to control the ball. Move left and right to avoid obstacles and stay on the slope. The ball will automatically roll forward - your job is to keep it on track and avoid falling off the edge.",
+      "features": [
+        "Endless gameplay with increasing difficulty",
+        "Smooth ball physics and controls",
+        "Colorful and vibrant graphics",
+        "High score tracking system",
+        "Addictive and challenging gameplay",
+        "Mobile-friendly touch controls"
+      ],
+      "faqs": [
+        {
+          "question": "How do I control the ball in Slope?",
+          "answer": "Use your mouse to move left and right, or use the arrow keys on your keyboard. The ball will automatically roll forward down the slope."
+        },
+        {
+          "question": "What happens if I fall off the slope?",
+          "answer": "If you fall off the slope, the game ends and your score is recorded. Try to beat your previous high score!"
+        },
+        {
+          "question": "Is Slope free to play?",
+          "answer": "Yes! Slope is completely free to play online. No downloads or registration required."
+        },
+        {
+          "question": "Can I play Slope on mobile devices?",
+          "answer": "Absolutely! Slope is optimized for both desktop and mobile devices with touch controls."
+        },
+        {
+          "question": "How do I get a high score?",
+          "answer": "Stay on the slope as long as possible, avoid obstacles, and maintain control of the ball. The longer you survive, the higher your score will be."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/143215/file/w180h135_webp-slope-game-thumbnail.webp",
+      "tags": ["skill", "endless", "running", "arcade", "challenging", "addictive"],
+      "publishedAt": "2025-01-17T15:00:00Z",
+      "featured": true
+    },
+    {
+      "id": "number-merge",
+      "title": "Number Merge",
+      "slug": "number-merge",
+      "category": "thinking",
+      "gameUrl": "https://zh.y8.com/games/number_merge_html5",
+      "description": "Challenge your mathematical skills with Number Merge! Combine numbers strategically to create higher values and achieve the highest score possible. This addictive puzzle game tests your logic and planning abilities while providing endless entertainment.",
+      "howToPlay": "Use your mouse or touch to move number tiles around the board. Combine identical numbers to create higher values. Plan your moves carefully to maximize your score and avoid filling up the board. The goal is to create the highest possible numbers and achieve the best score.",
+      "features": [
+        "Strategic number combination gameplay",
+        "Progressive difficulty levels",
+        "High score tracking system",
+        "Smooth and intuitive controls",
+        "Addictive puzzle mechanics",
+        "Mobile-friendly touch interface"
+      ],
+      "faqs": [
+        {
+          "question": "How do I combine numbers in Number Merge?",
+          "answer": "Move identical numbers next to each other to combine them into a higher value. For example, combining two '2' tiles creates a '4' tile."
+        },
+        {
+          "question": "What happens when the board fills up?",
+          "answer": "When the board is full and you can't make any more moves, the game ends. Try to plan ahead and create space by combining numbers strategically."
+        },
+        {
+          "question": "Is Number Merge free to play?",
+          "answer": "Yes! Number Merge is completely free to play online. No downloads or registration required."
+        },
+        {
+          "question": "Can I play Number Merge on mobile devices?",
+          "answer": "Absolutely! Number Merge is optimized for both desktop and mobile devices with touch controls."
+        },
+        {
+          "question": "How do I get a high score?",
+          "answer": "Focus on creating the highest possible numbers by combining tiles strategically. Plan your moves carefully and try to keep the board as clear as possible."
+        },
+        {
+          "question": "Are there any tips for playing Number Merge?",
+          "answer": "Yes! Try to keep your highest numbers in corners, plan several moves ahead, and don't rush your decisions. Take your time to find the best combinations."
+        }
+      ],
+      "thumbnail": "https://cdn2.y8.com/cloudimage/383947/file/w180h135_webp-03dfcee9cf08ade29f62a75a7df372bf.webp",
+      "tags": ["number", "merge", "puzzle", "math", "strategy", "thinking"],
+      "publishedAt": "2025-01-17T16:00:00Z",
+      "featured": true
+    },
+    {
       "id": "scratch-creative-game",
       "title": "Scratch Creative Game",
       "slug": "scratch-creative-game",
